@@ -20,7 +20,7 @@
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>0</number>
+      <number>4</number>
      </property>
      <widget class="QWidget" name="tabMain">
       <attribute name="title">
@@ -30,10 +30,10 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start Vivoinnovaonexgobyte Core after logging in to the system.</string>
+          <string>Automatically start the VIOG Wallet after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start Vivoinnovaonexgobyte Core on system login</string>
+          <string>&amp;Start the VIOG Wallet on system login</string>
          </property>
         </widget>
        </item>
@@ -682,8 +682,7 @@
           <string notr="true"/>
          </property>
          <property name="text">
-          <string>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</string>
+          <string>Language missing or translation incomplete? Help contributing translations by contacting us an our Discord Channel: https://discord.gg/bqHkrPt</string>
          </property>
          <property name="wordWrap">
           <bool>true</bool>
