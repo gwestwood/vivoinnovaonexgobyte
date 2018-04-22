@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2009-2015 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -70,12 +70,12 @@ static bool AppInitRPC(int argc, char* argv[])
     //
     ParseParameters(argc, argv);
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Vivoinnovaonexgobyte Core RPC client version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("The VIOG Wallet RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  vivoinnovaonexgobyte-cli [options] <command> [params]  " + _("Send command to Vivoinnovaonexgobyte Core") + "\n" +
-                  "  vivoinnovaonexgobyte-cli [options] help                " + _("List commands") + "\n" +
-                  "  vivoinnovaonexgobyte-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  viog-cli [options] <command> [params]  " + _("Send command to The VIOG Wallet") + "\n" +
+                  "  viog-cli [options] help                " + _("List commands") + "\n" +
+                  "  viog-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Vivoinnovaonexgobyte Core vivoinnovaonexgobyte-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("The VIOG Wallet viog-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  vivoinnovaonexgobyte-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded vivoinnovaonexgobyte transaction") + "\n" +
-              "  vivoinnovaonexgobyte-tx [options] -create [commands]   " + _("Create hex-encoded vivoinnovaonexgobyte transaction") + "\n" +
+              "  viog-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded VIOG transaction") + "\n" +
+              "  viog-tx [options] -create [commands]   " + _("Create hex-encoded VIOG transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -600,7 +600,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded vivoinnovaonexgobyte transaction
+            // param: hex-encoded VIOG transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-")                 // "-" implies standard input
                 strHexTx = readStdin();

@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -28,8 +28,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Vivoinnovaonexgobyte (https://www.vivoinnovaonexgobyte.org/),
- * which enables instant payments to anyone, anywhere in the world. Vivoinnovaonexgobyte uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called VIOG (https://www.viog.org/),
+ * which enables instant payments to anyone, anywhere in the world. VIOG uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -70,13 +70,13 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/vivoinnovaonexgobyte.conf are parsed in qt/vivoinnovaonexgobyte.cpp's main()
+    // If Qt is used, parameters/viog.conf are parsed in qt/viog.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-h") ||  mapArgs.count("-help") || mapArgs.count("-version"))
     {
-        std::string strUsage = _("Vivoinnovaonexgobyte Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("The VIOG Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version"))
         {
@@ -85,7 +85,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  vivoinnovaonexgobyted [options]                     " + _("Start Vivoinnovaonexgobyte Core Daemon") + "\n";
+                  "  viogd [options]                     " + _("Start The VIOG Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -126,19 +126,19 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "vivoinnovaonexgobyte:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "viog:"))
                 fCommandLine = true;
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in vivoinnovaonexgobyted anymore. Use the vivoinnovaonexgobyte-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in viogd anymore. Use the viog-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "Vivoinnovaonexgobyte server starting\n");
+            fprintf(stdout, "VIOG server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -189,7 +189,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect vivoinnovaonexgobyted signal handlers
+    // Connect viogd signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

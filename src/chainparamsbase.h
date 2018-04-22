@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between vivoinnovaonexgobyte-cli and vivoinnovaonexgobyted)
- * of a given instance of the Vivoinnovaonexgobyte system.
+ * CBaseChainParams defines the base parameters (shared between viog-cli and viogd)
+ * of a given instance of the VIOG system.
  */
 class CBaseChainParams
 {

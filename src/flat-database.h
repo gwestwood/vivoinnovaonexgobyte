@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Wallet developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -203,14 +203,14 @@ public:
         /*
 
 
-            2016-06-02 21:23:55     vivoinnovaonexgobyte-shutoff |      Governance Objects: 1, Seen Budgets: 1, Seen Budget Votes: 0, Vote Count: 0
-            2016-06-02 21:23:55     vivoinnovaonexgobyte-shutoff |      Governance Objects: 1, Seen Budgets: 0, Seen Budget Votes: 0, Vote Count: 0
-            2016-06-02 21:29:17            vivoinnovaonexgobyted |      Governance Objects: 1, Seen Budgets: 0, Seen Budget Votes: 0, Vote Count: 0
-            2016-06-02 21:29:17            vivoinnovaonexgobyted | CFlatDB - Governance Objects: 1, Seen Budgets: 0, Seen Budget Votes: 0, Vote Count: 0
-            2016-06-02 21:29:25     vivoinnovaonexgobyte-shutoff |      Governance Objects: 1, Seen Budgets: 0, Seen Budget Votes: 0, Vote Count: 0
-            2016-06-02 21:30:07     vivoinnovaonexgobyte-shutoff |      Governance Objects: 1, Seen Budgets: 1, Seen Budget Votes: 0, Vote Count: 0
-            2016-06-02 21:30:16            vivoinnovaonexgobyted |      Governance Objects: 1, Seen Budgets: 1, Seen Budget Votes: 0, Vote Count: 0
-            2016-06-02 21:30:16            vivoinnovaonexgobyted | CFlatDB - Governance Objects: 1, Seen Budgets: 1, Seen Budget Votes: 0, Vote Count: 0
+            2016-06-02 21:23:55     viog-shutoff |      Governance Objects: 1, Seen Budgets: 1, Seen Budget Votes: 0, Vote Count: 0
+            2016-06-02 21:23:55     viog-shutoff |      Governance Objects: 1, Seen Budgets: 0, Seen Budget Votes: 0, Vote Count: 0
+            2016-06-02 21:29:17            viogd |      Governance Objects: 1, Seen Budgets: 0, Seen Budget Votes: 0, Vote Count: 0
+            2016-06-02 21:29:17            viogd | CFlatDB - Governance Objects: 1, Seen Budgets: 0, Seen Budget Votes: 0, Vote Count: 0
+            2016-06-02 21:29:25     viog-shutoff |      Governance Objects: 1, Seen Budgets: 0, Seen Budget Votes: 0, Vote Count: 0
+            2016-06-02 21:30:07     viog-shutoff |      Governance Objects: 1, Seen Budgets: 1, Seen Budget Votes: 0, Vote Count: 0
+            2016-06-02 21:30:16            viogd |      Governance Objects: 1, Seen Budgets: 1, Seen Budget Votes: 0, Vote Count: 0
+            2016-06-02 21:30:16            viogd | CFlatDB - Governance Objects: 1, Seen Budgets: 1, Seen Budget Votes: 0, Vote Count: 0
 
             
             This fact can be demonstrated by adding a governance item, then stopping and starting the client. 

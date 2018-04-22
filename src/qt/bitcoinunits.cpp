@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case VIOG: return QString("Vivoinnovaonexgobyte");
-            case mVIOG: return QString("Milli-Vivoinnovaonexgobyte (1 / 1" THIN_SP_UTF8 "000)");
-            case uVIOG: return QString("Micro-Vivoinnovaonexgobyte (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Vivoinnovaonexgobyte (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case VIOG: return QString("VIOG");
+            case mVIOG: return QString("Milli-VIOG (1 / 1" THIN_SP_UTF8 "000)");
+            case uVIOG: return QString("Micro-VIOG (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-VIOG (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case VIOG: return QString("TestVivoinnovaonexgobytes");
-            case mVIOG: return QString("Milli-TestVivoinnovaonexgobyte (1 / 1" THIN_SP_UTF8 "000)");
-            case uVIOG: return QString("Micro-TestVivoinnovaonexgobyte (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestVivoinnovaonexgobyte (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case VIOG: return QString("TestVIOG");
+            case mVIOG: return QString("Milli-TestVIOG (1 / 1" THIN_SP_UTF8 "000)");
+            case uVIOG: return QString("Micro-TestVIOG (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestVIOG (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

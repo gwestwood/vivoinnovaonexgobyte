@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Vivoinnovaonexgobyte"
-            VALUE "FileDescription",    "vivoinnovaonexgobyte-tx (CLI Vivoinnovaonexgobyte transaction editor utility)"
+            VALUE "CompanyName",        "Iwwerall sa"
+            VALUE "FileDescription",    "viog-cli (JSON-RPC client for The VIOG Wallet)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "vivoinnovaonexgobyte-tx"
+            VALUE "InternalName",       "viog-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "vivoinnovaonexgobyte-tx.exe"
-            VALUE "ProductName",        "vivoinnovaonexgobyte-tx"
+            VALUE "OriginalFilename",   "viog-cli.exe"
+            VALUE "ProductName",        "viog-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
