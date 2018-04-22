@@ -9,7 +9,7 @@
 #include <utility>
 #include <vector>
 
-#include "test/test_vivoinnovaonexgobyte.h"
+#include "test/test_viog.h"
 
 #include <boost/foreach.hpp>
 #include <boost/test/unit_test.hpp>

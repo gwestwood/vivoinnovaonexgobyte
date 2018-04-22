@@ -4,7 +4,7 @@
 
 #include "scriptnum10.h"
 #include "script/script.h"
-#include "test/test_vivoinnovaonexgobyte.h"
+#include "test/test_viog.h"
 
 #include <boost/test/unit_test.hpp>
 #include <limits.h>

@@ -10,7 +10,7 @@
 #include "arith_uint256.h"
 #include "version.h"
 #include "random.h"
-#include "test/test_vivoinnovaonexgobyte.h"
+#include "test/test_viog.h"
 
 #include <vector>
 
