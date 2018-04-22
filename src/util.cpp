@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/vivoinnovaonexgobyte-config.h"
+#include "config/viog-config.h"
 #endif
 
 #include "util.h"
@@ -102,7 +102,7 @@ namespace boost {
 
 using namespace std;
 
-//Vivoinnovaonexgobyte only features
+//VIOG only features
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
 string strMasterNodeAddr = "";
@@ -110,7 +110,7 @@ bool fLiteMode = false;
 bool fEnableInstantSend = true;
 int nInstantSendDepth = 5;
 int nPrivateSendRounds = 2;
-int nAnonymizeVivoinnovaonexgobyteAmount = 1000;
+int nAnonymizeViogAmount = 1000;
 int nLiquidityProvider = 0;
 /**
     nWalletBackups:
@@ -129,8 +129,8 @@ bool fPrivateSendMultiSession = false;
 std::vector<CAmount> darkSendDenominations;
 string strBudgetMode = "";
 
-const char * const BITCOIN_CONF_FILENAME = "vivoinnovaonexgobyte.conf";
-const char * const BITCOIN_PID_FILENAME = "vivoinnovaonexgobyted.pid";
+const char * const BITCOIN_CONF_FILENAME = "viog.conf";
+const char * const BITCOIN_PID_FILENAME = "viogd.pid";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
@@ -284,8 +284,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "vivoinnovaonexgobyte" is a composite category enabling all Vivoinnovaonexgobyte-related debug output
-            if(ptrCategory->count(string("vivoinnovaonexgobyte"))) {
+            // "viog" is a composite category enabling all VIOG-related debug output
+            if(ptrCategory->count(string("viog"))) {
                 ptrCategory->insert(string("privatesend"));
                 ptrCategory->insert(string("instantsend"));
                 ptrCategory->insert(string("masternode"));
@@ -508,7 +508,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "vivoinnovaonexgobyte";
+    const char* pszModule = "viog";
 #endif
     if (pex)
         return strprintf(
@@ -528,13 +528,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Vivoinnovaonexgobyte
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Vivoinnovaonexgobyte
-    // Mac: ~/Library/Application Support/Vivoinnovaonexgobyte
-    // Unix: ~/.vivoinnovaonexgobyte
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\VIOG
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\VIOG
+    // Mac: ~/Library/Application Support/VIOG
+    // Unix: ~/.viog
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Vivoinnovaonexgobyte";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "VIOG";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -546,10 +546,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Vivoinnovaonexgobyte";
+    return pathRet / "VIOG";
 #else
     // Unix
-    return pathRet / ".vivoinnovaonexgobyte";
+    return pathRet / ".viog";
 #endif
 #endif
 }
@@ -643,7 +643,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()){
-        // Create empty vivoinnovaonexgobyte.conf if it does not excist
+        // Create empty viog.conf if it does not excist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -655,7 +655,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override vivoinnovaonexgobyte.conf
+        // Don't overwrite existing settings so command line settings override viog.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);

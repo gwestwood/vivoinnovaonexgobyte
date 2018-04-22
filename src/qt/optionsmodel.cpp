@@ -1,10 +1,10 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/vivoinnovaonexgobyte-config.h"
+#include "config/viog-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -121,16 +121,16 @@ void OptionsModel::Init(bool resetSettings)
         addOverriddenOption("-privatesendrounds");
     nPrivateSendRounds = settings.value("nPrivateSendRounds").toInt();
 
-    if (!settings.contains("nAnonymizeVivoinnovaonexgobyteAmount")) {
+    if (!settings.contains("nAnonymizeViogAmount")) {
         // for migration from old settings
         if (!settings.contains("nAnonymizeDarkcoinAmount"))
-            settings.setValue("nAnonymizeVivoinnovaonexgobyteAmount", 1000);
+            settings.setValue("nAnonymizeViogAmount", 1000);
         else
-            settings.setValue("nAnonymizeVivoinnovaonexgobyteAmount", settings.value("nAnonymizeDarkcoinAmount").toInt());
+            settings.setValue("nAnonymizeViogAmount", settings.value("nAnonymizeDarkcoinAmount").toInt());
     }
-    if (!SoftSetArg("-anonymizevivoinnovaonexgobyteamount", settings.value("nAnonymizeVivoinnovaonexgobyteAmount").toString().toStdString()))
-        addOverriddenOption("-anonymizevivoinnovaonexgobyteamount");
-    nAnonymizeVivoinnovaonexgobyteAmount = settings.value("nAnonymizeVivoinnovaonexgobyteAmount").toInt();
+    if (!SoftSetArg("-anonymizeviogamount", settings.value("nAnonymizeViogAmount").toString().toStdString()))
+        addOverriddenOption("-anonymizeviogamount");
+    nAnonymizeViogAmount = settings.value("nAnonymizeViogAmount").toInt();
 
     if (!settings.contains("fPrivateSendMultiSession"))
         settings.setValue("fPrivateSendMultiSession", fPrivateSendMultiSession);
@@ -185,7 +185,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in vivoinnovaonexgobyte.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in viog.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -253,8 +253,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fShowAdvancedPSUI;
         case PrivateSendRounds:
             return settings.value("nPrivateSendRounds");
-        case AnonymizeVivoinnovaonexgobyteAmount:
-            return settings.value("nAnonymizeVivoinnovaonexgobyteAmount");
+        case AnonymizeViogAmount:
+            return settings.value("nAnonymizeViogAmount");
         case ShowMasternodesTab:
             return settings.value("fShowMasternodesTab");
         case PrivateSendMultiSession:
@@ -394,12 +394,12 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
                 Q_EMIT privateSendRoundsChanged();
             }
             break;
-        case AnonymizeVivoinnovaonexgobyteAmount:
-            if (settings.value("nAnonymizeVivoinnovaonexgobyteAmount") != value)
+        case AnonymizeViogAmount:
+            if (settings.value("nAnonymizeViogAmount") != value)
             {
-                nAnonymizeVivoinnovaonexgobyteAmount = value.toInt();
-                settings.setValue("nAnonymizeVivoinnovaonexgobyteAmount", nAnonymizeVivoinnovaonexgobyteAmount);
-                Q_EMIT anonymizeVivoinnovaonexgobyteAmountChanged();
+                nAnonymizeViogAmount = value.toInt();
+                settings.setValue("nAnonymizeViogAmount", nAnonymizeViogAmount);
+                Q_EMIT anonymizeViogAmountChanged();
             }
             break;
         case ShowMasternodesTab:

@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/vivoinnovaonexgobyte-config.h"
+#include "config/viog-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -200,7 +200,7 @@ void OptionsDialog::setMapper()
     mapper->addMapping(ui->showAdvancedPSUI, OptionsModel::ShowAdvancedPSUI);
     mapper->addMapping(ui->coinControlFeatures, OptionsModel::CoinControlFeatures);
     mapper->addMapping(ui->privateSendRounds, OptionsModel::PrivateSendRounds);
-    mapper->addMapping(ui->anonymizeVivoinnovaonexgobyte, OptionsModel::AnonymizeVivoinnovaonexgobyteAmount);
+    mapper->addMapping(ui->anonymizeViog, OptionsModel::AnonymizeViogAmount);
     mapper->addMapping(ui->privateSendMultiSession, OptionsModel::PrivateSendMultiSession);
 
     /* Network */

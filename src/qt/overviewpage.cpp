@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -275,7 +275,7 @@ void OverviewPage::setWalletModel(WalletModel *model)
 
         connect(model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
         connect(model->getOptionsModel(), SIGNAL(privateSendRoundsChanged()), this, SLOT(updatePrivateSendProgress()));
-        connect(model->getOptionsModel(), SIGNAL(anonymizeVivoinnovaonexgobyteAmountChanged()), this, SLOT(updatePrivateSendProgress()));
+        connect(model->getOptionsModel(), SIGNAL(anonymizeViogAmountChanged()), this, SLOT(updatePrivateSendProgress()));
         connect(model->getOptionsModel(), SIGNAL(advancedPSUIChanged(bool)), this, SLOT(updateAdvancedPSUI(bool)));
         // explicitly update PS frame and transaction list to reflect actual settings
         updateAdvancedPSUI(model->getOptionsModel()->getShowAdvancedPSUI());
@@ -327,7 +327,7 @@ void OverviewPage::updatePrivateSendProgress()
     if(!pwalletMain) return;
 
     QString strAmountAndRounds;
-    QString strAnonymizeVivoinnovaonexgobyteAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeVivoinnovaonexgobyteAmount * COIN, false, BitcoinUnits::separatorAlways);
+    QString strAnonymizeViogAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeViogbyteAmount * COIN, false, BitcoinUnits::separatorAlways);
 
     if(currentBalance == 0)
     {
@@ -335,8 +335,8 @@ void OverviewPage::updatePrivateSendProgress()
         ui->privateSendProgress->setToolTip(tr("No inputs detected"));
 
         // when balance is zero just show info from settings
-        strAnonymizeVivoinnovaonexgobyteAmount = strAnonymizeVivoinnovaonexgobyteAmount.remove(strAnonymizeVivoinnovaonexgobyteAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeVivoinnovaonexgobyteAmount + " / " + tr("%n Rounds", "", nPrivateSendRounds);
+        strAnonymizeViogAmount = strAnonymizeViogAmount.remove(strAnonymizeViogAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeViogAmount + " / " + tr("%n Rounds", "", nPrivateSendRounds);
 
         ui->labelAmountRounds->setToolTip(tr("No inputs detected"));
         ui->labelAmountRounds->setText(strAmountAndRounds);
@@ -360,20 +360,20 @@ void OverviewPage::updatePrivateSendProgress()
     CAmount nMaxToAnonymize = nAnonymizableBalance + currentAnonymizedBalance + nDenominatedUnconfirmedBalance;
 
     // If it's more than the anon threshold, limit to that.
-    if(nMaxToAnonymize > nAnonymizeVivoinnovaonexgobyteAmount*COIN) nMaxToAnonymize = nAnonymizeVivoinnovaonexgobyteAmount*COIN;
+    if(nMaxToAnonymize > nAnonymizeViogAmount*COIN) nMaxToAnonymize = nAnonymizeViogAmount*COIN;
 
     if(nMaxToAnonymize == 0) return;
 
-    if(nMaxToAnonymize >= nAnonymizeVivoinnovaonexgobyteAmount * COIN) {
+    if(nMaxToAnonymize >= nAnonymizeViogAmount * COIN) {
         ui->labelAmountRounds->setToolTip(tr("Found enough compatible inputs to anonymize %1")
-                                          .arg(strAnonymizeVivoinnovaonexgobyteAmount));
-        strAnonymizeVivoinnovaonexgobyteAmount = strAnonymizeVivoinnovaonexgobyteAmount.remove(strAnonymizeVivoinnovaonexgobyteAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeVivoinnovaonexgobyteAmount + " / " + tr("%n Rounds", "", nPrivateSendRounds);
+                                          .arg(strAnonymizeViogAmount));
+        strAnonymizeViogAmount = strAnonymizeViogAmount.remove(strAnonymizeViogAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeViogAmount + " / " + tr("%n Rounds", "", nPrivateSendRounds);
     } else {
         QString strMaxToAnonymize = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nMaxToAnonymize, false, BitcoinUnits::separatorAlways);
         ui->labelAmountRounds->setToolTip(tr("Not enough compatible inputs to anonymize <span style='color:red;'>%1</span>,<br>"
                                              "will anonymize <span style='color:red;'>%2</span> instead")
-                                          .arg(strAnonymizeVivoinnovaonexgobyteAmount)
+                                          .arg(strAnonymizeViogAmount)
                                           .arg(strMaxToAnonymize));
         strMaxToAnonymize = strMaxToAnonymize.remove(strMaxToAnonymize.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
         strAmountAndRounds = "<span style='color:red;'>" +
@@ -616,7 +616,7 @@ void OverviewPage::togglePrivateSend(){
 
         /* show darksend configuration if client has defaults set */
 
-        if(nAnonymizeVivoinnovaonexgobyteAmount == 0){
+        if(nAnonymizeViogAmount == 0){
             DarksendConfig dlg(this);
             dlg.setModel(walletModel);
             dlg.exec();

@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +12,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/vivoinnovaonexgobyte-config.h"
+#include "config/viog-config.h"
 #endif
 
 #include "compat.h"
@@ -30,14 +30,14 @@
 #include <boost/signals2/signal.hpp>
 #include <boost/thread/exceptions.hpp>
 
-//Vivoinnovaonexgobyte only features
+//VIOG only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
 extern bool fEnableInstantSend;
 extern int nInstantSendDepth;
 extern int nPrivateSendRounds;
-extern int nAnonymizeVivoinnovaonexgobyteAmount;
+extern int nAnonymizeViogAmount;
 extern int nLiquidityProvider;
 extern int nWalletBackups;
 extern bool fEnablePrivateSend;
@@ -250,7 +250,7 @@ std::string GetThreadName();
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("vivoinnovaonexgobyte-%s", name);
+    std::string s = strprintf("viog-%s", name);
     RenameThread(s.c_str());
     try
     {
