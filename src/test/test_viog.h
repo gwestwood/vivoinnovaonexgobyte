@@ -1,5 +1,5 @@
-#ifndef BITCOIN_TEST_TEST_VIVOINNOVAONEXGOBYTE_H
-#define BITCOIN_TEST_TEST_VIVOINNOVAONEXGOBYTE_H
+#ifndef BITCOIN_TEST_TEST_VIOG_H
+#define BITCOIN_TEST_TEST_VIOG_H
 
 #include "chainparamsbase.h"
 #include "key.h"
