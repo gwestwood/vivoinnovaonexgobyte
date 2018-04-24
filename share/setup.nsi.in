@@ -48,11 +48,11 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile @abs_top_srcdir@/vivoinnovaonexgobyte-${VERSION}-win@WINDOWS_BITS@-setup.exe
+OutFile @abs_top_srcdir@/viog-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\Vivoinnovaonexgobyte
+InstallDir $PROGRAMFILES64\VIOG
 !else
-InstallDir $PROGRAMFILES\Vivoinnovaonexgobyte
+InstallDir $PROGRAMFILES\VIOG
 !endif
 CRCCheck on
 XPStyle on
