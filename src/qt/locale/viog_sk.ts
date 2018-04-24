@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Vivoinnovaonexgobyte Core</source>
-        <translation>&amp;O Vivoinnovaonexgobyte Core</translation>
+        <source>&amp;About The VIOG Wallet</source>
+        <translation>&amp;O The VIOG Wallet</translation>
     </message>
     <message>
-        <source>Show information about Vivoinnovaonexgobyte Core</source>
-        <translation>Zobraziť informácie o Vivoinnovaonexgobyte Core</translation>
+        <source>Show information about The VIOG Wallet</source>
+        <translation>Zobraziť informácie o The VIOG Wallet</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core client</source>
-        <translation>Vivoinnovaonexgobyte Core klient</translation>
+        <source>The VIOG Wallet client</source>
+        <translation>The VIOG Wallet klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the Vivoinnovaonexgobyte Core help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
-        <translation>Zobraziť Vivoinnovaonexgobyte Core nápovedu k získaniu zoznamu možností príkazového riadku Vivoinnovaonexgobyte.</translation>
+        <source>Show the The VIOG Wallet help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
+        <translation>Zobraziť The VIOG Wallet nápovedu k získaniu zoznamu možností príkazového riadku Vivoinnovaonexgobyte.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -988,8 +988,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>version</source>
@@ -1000,8 +1000,8 @@ Adresa: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Vivoinnovaonexgobyte Core</source>
-        <translation>O Vivoinnovaonexgobyte Core</translation>
+        <source>About The VIOG Wallet</source>
+        <translation>O The VIOG Wallet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1047,16 +1047,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Vivoinnovaonexgobyte Core.</source>
-        <translation>Vitajte v Vivoinnovaonexgobyte Core.</translation>
+        <source>Welcome to The VIOG Wallet.</source>
+        <translation>Vitajte v The VIOG Wallet.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Vivoinnovaonexgobyte Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Vivoinnovaonexgobyte Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where The VIOG Wallet will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude The VIOG Wallet ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Vivoinnovaonexgobyte Core stiahne a uloží kópiu reťazca blokov Vivoinnovaonexgobyte. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>The VIOG Wallet will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>The VIOG Wallet stiahne a uloží kópiu reťazca blokov Vivoinnovaonexgobyte. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1067,8 +1067,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2585,8 +2585,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core is shutting down...</source>
-        <translation>Vivoinnovaonexgobyte core sa vypína...</translation>
+        <source>The VIOG Wallet is shutting down...</source>
+        <translation>The VIOG Wallet sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2735,8 +2735,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2747,8 +2747,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The Vivoinnovaonexgobyte Core developers</source>
-        <translation>Vývojári Vivoinnovaonexgobyte Core</translation>
+        <source>The The VIOG Wallet developers</source>
+        <translation>Vývojári The VIOG Wallet</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3325,8 +3325,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Vivoinnovaonexgobyte Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Vivoinnovaonexgobyte Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. The VIOG Wallet is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. The VIOG Wallet už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3381,8 +3381,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Vivoinnovaonexgobyte Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Vivoinnovaonexgobyte Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. The VIOG Wallet is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. The VIOG Wallet už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3709,7 +3709,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use vivoinnovaonexgobyted, or the -server option to vivoinnovaonexgobyte-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viogd, or the -server option to viog-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=vivoinnovaonexgobyterpc
@@ -3720,7 +3720,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@foo.com
 </source>
-        <translation>Pre použitie možnosti -server pre vivoinnovaonexgobyte-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
+        <translation>Pre použitie možnosti -server pre viog-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodné heslo:
 rpcuser=vivoinnovaonexgobyterpc
@@ -3745,8 +3745,8 @@ napríklad: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Upozornenie" ad
         <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Vivoinnovaonexgobyte Core will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Vivoinnovaonexgobyte Core nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong The VIOG Wallet will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, The VIOG Wallet nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,7 +3799,7 @@ napríklad: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Upozornenie" ad
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Vivoinnovaonexgobyte Core Developers</source>
+        <source>Copyright (C) 2014-%i The The VIOG Wallet Developers</source>
         <translation>Autorské práva (C) 2014-%i Vývojári jadra Vivoinnovaonexgobyte</translation>
     </message>
     <message>
@@ -3831,8 +3831,8 @@ napríklad: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Upozornenie" ad
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Vivoinnovaonexgobyte Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Vivoinnovaonexgobyte Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of The VIOG Wallet</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu The VIOG Wallet</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ napríklad: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Upozornenie" ad
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Vivoinnovaonexgobyte Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Vivoinnovaonexgobyte Core sa vypína.</translation>
+        <source>Initialization sanity check failed. The VIOG Wallet is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. The VIOG Wallet sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ napríklad: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Upozornenie" ad
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Vivoinnovaonexgobyte Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Vivoinnovaonexgobyte Core</translation>
+        <source>Wallet needed to be rewritten: restart The VIOG Wallet to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte The VIOG Wallet</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

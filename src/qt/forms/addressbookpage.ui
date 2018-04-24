@@ -137,7 +137,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../vivoinnovaonexgobyte.qrc"/>
+  <include location="../viog.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Quitter l’application</translation>
     </message>
     <message>
-        <source>&amp;About Vivoinnovaonexgobyte Core</source>
+        <source>&amp;About The VIOG Wallet</source>
         <translation>À propos du noyau Vivoinnovaonexgobyte</translation>
     </message>
     <message>
-        <source>Show information about Vivoinnovaonexgobyte Core</source>
-        <translation>Affichez des informations à propos de  Vivoinnovaonexgobyte Core</translation>
+        <source>Show information about The VIOG Wallet</source>
+        <translation>Affichez des informations à propos de  The VIOG Wallet</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core client</source>
-        <translation>Client Vivoinnovaonexgobyte Core </translation>
+        <source>The VIOG Wallet client</source>
+        <translation>Client The VIOG Wallet </translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronisation des données additionnelles: %p%</translation>
     </message>
     <message>
-        <source>Show the Vivoinnovaonexgobyte Core help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
-        <translation>Afficher le message d'aide de Vivoinnovaonexgobyte Core pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
+        <source>Show the The VIOG Wallet help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
+        <translation>Afficher le message d'aide de The VIOG Wallet pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -572,10 +572,10 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Date : %1
-Montant : %2
-Type : %3
-Adresse : %4
+        <translation>Date : %1
+Montant : %2
+Type : %3
+Adresse : %4
 </translation>
     </message>
     <message>
@@ -614,7 +614,7 @@ Adresse : %4
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Montant :</translation>
+        <translation>Montant :</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -952,7 +952,7 @@ Adresse : %4
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>L’adresse fournie « %1 » est déjà présente dans le carnet d'adresses.</translation>
+        <translation>L’adresse fournie « %1 » est déjà présente dans le carnet d'adresses.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -989,8 +989,8 @@ Adresse : %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Adresse : %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Vivoinnovaonexgobyte Core</source>
-        <translation>A propos de Vivoinnovaonexgobyte Core</translation>
+        <source>About The VIOG Wallet</source>
+        <translation>A propos de The VIOG Wallet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1010,7 +1010,7 @@ Adresse : %4
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Utilisation :</translation>
+        <translation>Utilisation :</translation>
     </message>
     <message>
         <source>command-line options</source>
@@ -1026,7 +1026,7 @@ Adresse : %4
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Définir la langue, par exemple « fr_CA » (par défaut : la langue du système)</translation>
+        <translation>Définir la langue, par exemple « fr_CA » (par défaut : la langue du système)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -1038,7 +1038,7 @@ Adresse : %4
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Afficher l'écran d'accueil au démarrage (par défaut : 1)</translation>
+        <translation>Afficher l'écran d'accueil au démarrage (par défaut : 1)</translation>
     </message>
 </context>
 <context>
@@ -1048,16 +1048,16 @@ Adresse : %4
         <translation>Bienvenue</translation>
     </message>
     <message>
-        <source>Welcome to Vivoinnovaonexgobyte Core.</source>
-        <translation>Bienvenue à Vivoinnovaonexgobyte Core</translation>
+        <source>Welcome to The VIOG Wallet.</source>
+        <translation>Bienvenue à The VIOG Wallet</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Vivoinnovaonexgobyte Core will store its data.</source>
-        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où Vivoinnovaonexgobyte Core sauvegardera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where The VIOG Wallet will store its data.</source>
+        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où The VIOG Wallet sauvegardera ses données.</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Vivoinnovaonexgobyte Core téléchargera et sauvegardera une copie de la chaîne de blocs Vivoinnovaonexgobyte. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
+        <source>The VIOG Wallet will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>The VIOG Wallet téléchargera et sauvegardera une copie de la chaîne de blocs Vivoinnovaonexgobyte. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Adresse : %4
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1215,7 +1215,7 @@ Adresse : %4
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP du serveur mandataire :</translation>
+        <translation>&amp;IP du serveur mandataire :</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1223,7 +1223,7 @@ Adresse : %4
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Port :</translation>
+        <translation>&amp;Port :</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
@@ -1255,7 +1255,7 @@ Adresse : %4
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Langue de l'interface utilisateur :</translation>
+        <translation>&amp;Langue de l'interface utilisateur :</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Vivoinnovaonexgobyte.</source>
@@ -1273,7 +1273,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unité d'affichage des montants :</translation>
+        <translation>&amp;Unité d'affichage des montants :</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -2056,7 +2056,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Étiquette :</translation>
+        <translation>&amp;Étiquette :</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
@@ -2229,7 +2229,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Montant :</translation>
+        <translation>Montant :</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -2373,7 +2373,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Solde :</translation>
+        <translation>Solde :</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -2516,7 +2516,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>&amp;Payer à :</translation>
+        <translation>&amp;Payer à :</translation>
     </message>
     <message>
         <source>The Vivoinnovaonexgobyte address to send the payment to</source>
@@ -2544,7 +2544,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>É&amp;tiquette :</translation>
+        <translation>É&amp;tiquette :</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -2552,11 +2552,11 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Montant :</translation>
+        <translation>&amp;Montant :</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Message :</translation>
+        <translation>Message :</translation>
     </message>
     <message>
         <source>A message that was attached to the vivoinnovaonexgobyte: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vivoinnovaonexgobyte network.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core is shutting down...</source>
-        <translation>Arrêt de Vivoinnovaonexgobyte Core...</translation>
+        <source>The VIOG Wallet is shutting down...</source>
+        <translation>Arrêt de The VIOG Wallet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2682,7 +2682,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Cliquez sur « Signer le message » pour générer la signature</translation>
+        <translation>Cliquez sur « Signer le message » pour générer la signature</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Les développeurs Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Vivoinnovaonexgobyte Core developers</source>
-        <translation>Les développeurs Vivoinnovaonexgobyte Core</translation>
+        <source>The The VIOG Wallet developers</source>
+        <translation>Les développeurs The VIOG Wallet</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3005,7 +3005,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ce bloc n’a été reçu par aucun autre nœud et ne sera probablement pas accepté !</translation>
+        <translation>Ce bloc n’a été reçu par aucun autre nœud et ne sera probablement pas accepté !</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -3248,7 +3248,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Intervalle :</translation>
+        <translation>Intervalle :</translation>
     </message>
     <message>
         <source>to</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Se lier à l'adresse donnée et toujours l'écouter. Utilisez la notation [host]:port pour l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Vivoinnovaonexgobyte Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Vivoinnovaonexgobyte Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. The VIOG Wallet is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. The VIOG Wallet fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Ceci est une pré-version de test - l'utiliser à vos risques et périls - ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Vivoinnovaonexgobyte Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Vivoinnovaonexgobyte Core fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. The VIOG Wallet is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. The VIOG Wallet fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3427,7 +3427,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accepter les connexions entrantes (par défaut : 1 si aucun -proxy ou -connect )</translation>
+        <translation>Accepter les connexions entrantes (par défaut : 1 si aucun -proxy ou -connect )</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
@@ -3459,11 +3459,11 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Impossible de résoudre l'adresse -bind : « %s »</translation>
+        <translation>Impossible de résoudre l'adresse -bind : « %s »</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Impossible de résoudre l'adresse -externalip : « %s »</translation>
+        <translation>Impossible de résoudre l'adresse -externalip : « %s »</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
@@ -3499,7 +3499,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Découvrir sa propre adresse IP (par défaut : 1 lors de l'écoute et si aucun -externalip)</translation>
+        <translation>Découvrir sa propre adresse IP (par défaut : 1 lors de l'écoute et si aucun -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -3535,7 +3535,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Erreur lors du chargement de wallet.dat : portefeuille corrompu</translation>
+        <translation>Erreur lors du chargement de wallet.dat : portefeuille corrompu</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3659,7 +3659,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s » (doit être au moins du montant de frais minrelay de %s pour éviter des transactions bloquées)</translation>
+        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s » (doit être au moins du montant de frais minrelay de %s pour éviter des transactions bloquées)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
@@ -3710,7 +3710,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Ce produit comprend des logiciels développés par le projet OpenSSL afin d'être utilisés dans la boîte à outils OpenSSL &lt;https://www.openssl.org/&gt;, un logiciel de chiffrement écrit par Eric Young et un logiciel UPnP développé par Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use vivoinnovaonexgobyted, or the -server option to vivoinnovaonexgobyte-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viogd, or the -server option to viog-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=vivoinnovaonexgobyterpc
@@ -3721,7 +3721,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@foo.com
 </source>
-        <translation>Pour utiliser vivoinnovaonexgobyted, ou le paramètre -server de vivoinnovaonexgobyte-qt, vous devez définir un rpc mot de passe dans le fichier de configuration:
+        <translation>Pour utiliser viogd, ou le paramètre -server de viog-qt, vous devez définir un rpc mot de passe dans le fichier de configuration:
 %s
 Il est recommandé que vous utilisiez ce mot de passe aléatoire:
 rpcuser=vivoinnovaonexgobyterpc
@@ -3739,15 +3739,15 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Utiliser un serveur proxy SOCKS5 séparé pour atteindre les pairs par les services cachés de Tor (par défaut : %s)</translation>
+        <translation>Utiliser un serveur proxy SOCKS5 séparé pour atteindre les pairs par les services cachés de Tor (par défaut : %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
         <translation>Attention : -maxtxfee est réglée sur un montant très élevé ! Il s'agit des frais de transaction que vous payerez si vous envoyez une transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Vivoinnovaonexgobyte Core will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Vivoinnovaonexgobyte Core ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong The VIOG Wallet will not work properly.</source>
+        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, The VIOG Wallet ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3785,7 +3785,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Impossible de résoudre l'adresse -whitebind : « %s »</translation>
+        <translation>Impossible de résoudre l'adresse -whitebind : « %s »</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3800,8 +3800,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Vivoinnovaonexgobyte Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Vivoinnovaonexgobyte Core Developers</translation>
+        <source>Copyright (C) 2014-%i The The VIOG Wallet Developers</source>
+        <translation>Copyright (C) 2014-%i The The VIOG Wallet Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3832,8 +3832,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
         <translation>Erreur de connexion au masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Vivoinnovaonexgobyte Core</source>
-        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Vivoinnovaonexgobyte Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of The VIOG Wallet</source>
+        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de The VIOG Wallet</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3904,8 +3904,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
         <translation>Informations</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Vivoinnovaonexgobyte Core is shutting down.</source>
-        <translation>Les tests de cohérences lors de l'initialisation ont échoués. Vivoinnovaonexgobyte Core est en cours de fermeture.</translation>
+        <source>Initialization sanity check failed. The VIOG Wallet is shutting down.</source>
+        <translation>Les tests de cohérences lors de l'initialisation ont échoués. The VIOG Wallet est en cours de fermeture.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -3925,27 +3925,27 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Adresse -proxy invalide : « %s »</translation>
+        <translation>Adresse -proxy invalide : « %s »</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s »</translation>
+        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Montant invalide pour -minrelayfee=&lt;montant&gt; : « %s »</translation>
+        <translation>Montant invalide pour -minrelayfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Montant invalide pour -mintxfee=&lt;montant&gt; : « %s »</translation>
+        <translation>Montant invalide pour -mintxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s » (minimum possible: %s)</translation>
+        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s » (minimum possible: %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s »</translation>
+        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
         <source>Last successful Darksend action was too recent.</source>
@@ -3985,7 +3985,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Garder au plus &lt;n&gt; connexions avec les pairs (par défaut : %u)</translation>
+        <translation>Garder au plus &lt;n&gt; connexions avec les pairs (par défaut : %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -4045,11 +4045,11 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Server certificate file (default: %s)</source>
-        <translation>Fichier de certification du serveur (par défaut : %s)</translation>
+        <translation>Fichier de certification du serveur (par défaut : %s)</translation>
     </message>
     <message>
         <source>Server private key (default: %s)</source>
-        <translation>Clef privée du serveur (par défaut : %s)</translation>
+        <translation>Clef privée du serveur (par défaut : %s)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
@@ -4081,7 +4081,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Spécifier le délai d'expiration de la connexion en millisecondes (minimum : 1, par défaut : %d)</translation>
+        <translation>Spécifier le délai d'expiration de la connexion en millisecondes (minimum : 1, par défaut : %d)</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
@@ -4153,11 +4153,11 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : %u)</translation>
+        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Vivoinnovaonexgobyte Core to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer Vivoinnovaonexgobyte Core pour terminer l'opération.</translation>
+        <source>Wallet needed to be rewritten: restart The VIOG Wallet to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer The VIOG Wallet pour terminer l'opération.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4193,7 +4193,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Masque de réseau inconnu spécifié sur -whitelist : « %s »</translation>
+        <translation>Masque de réseau inconnu spécifié sur -whitelist : « %s »</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
@@ -4221,7 +4221,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Garder au plus &lt;n&gt; transactions sans connexion en mémoire (par défaut : %u)</translation>
+        <translation>Garder au plus &lt;n&gt; transactions sans connexion en mémoire (par défaut : %u)</translation>
     </message>
     <message>
         <source>Last Darksend was too recent.</source>
@@ -4289,7 +4289,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Options:</source>
-        <translation>Options :</translation>
+        <translation>Options :</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -4449,7 +4449,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Réseau inconnu spécifié sur -onlynet : « %s »</translation>
+        <translation>Réseau inconnu spécifié sur -onlynet : « %s »</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
@@ -4465,7 +4465,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Vivoinnovaonexgobyte" admin
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : 1 lors de l'écoute)</translation>
+        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : 1 lors de l'écoute)</translation>
     </message>
     <message>
         <source>Use the test network</source>

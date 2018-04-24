@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.vivoinnovaonexgobyte.Vivoinnovaonexgobyte-Qt";
+        return @"org.vivoinnovaonexgobyte.viog-qt";
     } else {
         return [self __bundleIdentifier];
     }

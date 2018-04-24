@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build vivoinnovaonexgobyted (headless client) for OSX.
+This guide will show you how to build viogd (headless client) for OSX.
 
 Notes
 -----
@@ -40,7 +40,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
-        git clone https://github.com/vivoinnovaonexgobytepay/vivoinnovaonexgobyte.git
+        git clone https://github.com/Iwwerall/VIOG.git
         cd vivoinnovaonexgobyte
 
 2.  Build vivoinnovaonexgobyte-core:
@@ -55,7 +55,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
         make check
 
-4.  (Optional) You can also install vivoinnovaonexgobyted to your path:
+4.  (Optional) You can also install viogd to your path:
 
         make install
 
@@ -67,7 +67,7 @@ Download Qt Creator from https://www.qt.io/download/. Download the "community ed
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "vivoinnovaonexgobyte-qt" as project name, enter src/qt as location
+4. Enter "viog-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -77,11 +77,11 @@ Download Qt Creator from https://www.qt.io/download/. Download the "community ed
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `vivoinnovaonexgobyted` for your own use.
+You can ignore this section if you are building `viogd` for your own use.
 
-vivoinnovaonexgobyted/vivoinnovaonexgobyte-cli binaries are not included in the Vivoinnovaonexgobyte-Qt.app bundle.
+viogd/viog-cli binaries are not included in the viog-qt.app bundle.
 
-If you are building `vivoinnovaonexgobyted` or `Dsah Core` for others, your build machine should be set up
+If you are building `viogd` or `Dsah Core` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -90,16 +90,16 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Vivoinnovaonexgobyte Core
+Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the The VIOG Wallet
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./vivoinnovaonexgobyted`, provided that you are still in the `src`
+It's now available at `./viogd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./vivoinnovaonexgobyted` to get the filename where it should be put, or just try these
+Run `./viogd` to get the filename where it should be put, or just try these
 commands:
 
     echo -e "rpcuser=vivoinnovaonexgobyterpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Vivoinnovaonexgobyte/vivoinnovaonexgobyte.conf"
@@ -114,6 +114,6 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./vivoinnovaonexgobyted -daemon # to start the vivoinnovaonexgobyte daemon.
-    ./vivoinnovaonexgobyte-cli --help  # for a list of command-line options.
-    ./vivoinnovaonexgobyte-cli help    # When the daemon is running, to get a list of RPC commands
+    ./viogd -daemon # to start the vivoinnovaonexgobyte daemon.
+    ./viog-cli --help  # for a list of command-line options.
+    ./viog-cli help    # When the daemon is running, to get a list of RPC commands

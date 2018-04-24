@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Sulje ohjelma</translation>
     </message>
     <message>
-        <source>&amp;About Vivoinnovaonexgobyte Core</source>
-        <translation>Tietoja &amp;Vivoinnovaonexgobyte Core:sta</translation>
+        <source>&amp;About The VIOG Wallet</source>
+        <translation>Tietoja &amp;The VIOG Wallet:sta</translation>
     </message>
     <message>
-        <source>Show information about Vivoinnovaonexgobyte Core</source>
-        <translation>Näytä tietoja Vivoinnovaonexgobyte Core:sta</translation>
+        <source>Show information about The VIOG Wallet</source>
+        <translation>Näytä tietoja The VIOG Wallet:sta</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core client</source>
-        <translation>Vivoinnovaonexgobyte Core asiakasohjelma</translation>
+        <source>The VIOG Wallet client</source>
+        <translation>The VIOG Wallet asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synkronoidaan lisätietoja: %p%</translation>
     </message>
     <message>
-        <source>Show the Vivoinnovaonexgobyte Core help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
-        <translation>Näytä Vivoinnovaonexgobyte Core ohjelista komentorivin valinnoista</translation>
+        <source>Show the The VIOG Wallet help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
+        <translation>Näytä The VIOG Wallet ohjelista komentorivin valinnoista</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Osoite: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Osoite: %4
         <translation>(%1-bittinen)</translation>
     </message>
     <message>
-        <source>About Vivoinnovaonexgobyte Core</source>
-        <translation>Tietoja Vivoinnovaonexgobyte Core:sta</translation>
+        <source>About The VIOG Wallet</source>
+        <translation>Tietoja The VIOG Wallet:sta</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,17 +1048,17 @@ Osoite: %4
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Vivoinnovaonexgobyte Core.</source>
-        <translation>Vivoinnovaonexgobyte Core - Tervetuloa.</translation>
+        <source>Welcome to The VIOG Wallet.</source>
+        <translation>The VIOG Wallet - Tervetuloa.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Vivoinnovaonexgobyte Core will store its data.</source>
-        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne Vivoinnovaonexgobyte Core tallettaa datansa.
+        <source>As this is the first time the program is launched, you can choose where The VIOG Wallet will store its data.</source>
+        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne The VIOG Wallet tallettaa datansa.
 Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd levyltä, ohjaa talletettava data eri levyasemalle turvalliseen paikkaan.</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Vivoinnovaonexgobyte Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
+        <source>The VIOG Wallet will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>The VIOG Wallet lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1069,8 +1069,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Määritä oma hakemisto:</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2591,8 +2591,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core is shutting down...</source>
-        <translation>Vivoinnovaonexgobyte Core sulkeutuu...</translation>
+        <source>The VIOG Wallet is shutting down...</source>
+        <translation>The VIOG Wallet sulkeutuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2741,8 +2741,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2753,8 +2753,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Bitcoin Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Vivoinnovaonexgobyte Core developers</source>
-        <translation>Vivoinnovaonexgobyte Core kehittäjät</translation>
+        <source>The The VIOG Wallet developers</source>
+        <translation>The VIOG Wallet kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3331,8 +3331,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Vivoinnovaonexgobyte Core is probably already running.</source>
-        <translation>Ei voida lukita data hakemistoa %s. Vivoinnovaonexgobyte Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. The VIOG Wallet is probably already running.</source>
+        <translation>Ei voida lukita data hakemistoa %s. The VIOG Wallet on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3387,8 +3387,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla vastuulla - Älä käytä louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Vivoinnovaonexgobyte Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Vivoinnovaonexgobyte Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. The VIOG Wallet is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. The VIOG Wallet on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3717,7 +3717,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 Käännös päivitetty: 1.9.2015 by AjM.</translation>
     </message>
     <message>
-        <source>To use vivoinnovaonexgobyted, or the -server option to vivoinnovaonexgobyte-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viogd, or the -server option to viog-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=vivoinnovaonexgobyterpc
@@ -3728,7 +3728,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@foo.com
 </source>
-        <translation>Käyttääksesi vivoinnovaonexgobyted:ia tai -server valintaa vivoinnovaonexgobyte-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
+        <translation>Käyttääksesi viogd:ia tai -server valintaa viog-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
 %s
 Suositellaan että käytät allaolevaa satunnaista salasanaa:
 rpcuser=vivoinnovaonexgobyterpc
@@ -3753,7 +3753,7 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Hälytys" admi
         <translation>Varoitus: -maxtxfee on asetettu erittäin korkeaksi! Näin isot siirtomaksut voitaisiin maksaa yhdessä siirtotapahtumassa.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Vivoinnovaonexgobyte Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong The VIOG Wallet will not work properly.</source>
         <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! Vivoinnovaonexgobyte ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
@@ -3807,8 +3807,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Hälytys" admi
         <translation>Copyright (C) 2009-%i Bitcoin Core Kehittäjät</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Vivoinnovaonexgobyte Core Developers</source>
-        <translation>Copyright (C) 2014-%i Vivoinnovaonexgobyte Core Kehittäjät</translation>
+        <source>Copyright (C) 2014-%i The The VIOG Wallet Developers</source>
+        <translation>Copyright (C) 2014-%i The VIOG Wallet Kehittäjät</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3839,8 +3839,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Hälytys" admi
         <translation>Virhe masternode:en kytkeytymisessä.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Vivoinnovaonexgobyte Core</source>
-        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version Vivoinnovaonexgobyte Core:sta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of The VIOG Wallet</source>
+        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version The VIOG Wallet:sta</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3911,8 +3911,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Hälytys" admi
         <translation>Tietoa</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Vivoinnovaonexgobyte Core is shutting down.</source>
-        <translation>Alkuperäisyyden tarkistus epäonnistui. Vivoinnovaonexgobyte Core sulkeutuu.</translation>
+        <source>Initialization sanity check failed. The VIOG Wallet is shutting down.</source>
+        <translation>Alkuperäisyyden tarkistus epäonnistui. The VIOG Wallet sulkeutuu.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4163,8 +4163,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Hälytys" admi
         <translation>Käytä UPnP:tä kuunneltavan portin kartoitukseen (oletus: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Vivoinnovaonexgobyte Core to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Vivoinnovaonexgobyte Core uudestaan viimeistelyä varten</translation>
+        <source>Wallet needed to be rewritten: restart The VIOG Wallet to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä The VIOG Wallet uudestaan viimeistelyä varten</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

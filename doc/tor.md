@@ -37,11 +37,11 @@ outgoing connections be anonymized, but more is possible.
 An example how to start the client if the Tor proxy is running on local host on
 port 9050 and only allows .onion nodes to connect:
 
-	./vivoinnovaonexgobyted -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=ssapp53tmftyjmjb.onion
+	./viogd -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=ssapp53tmftyjmjb.onion
 
 In a typical situation, this suffices to run behind a Tor proxy:
 
-	./vivoinnovaonexgobyted -proxy=127.0.0.1:9050
+	./viogd -proxy=127.0.0.1:9050
 
 
 2. Run a vivoinnovaonexgobyte hidden server
@@ -56,7 +56,7 @@ config file):
 	HiddenServicePort 19999 127.0.0.1:19999
 
 The directory can be different of course, but (both) port numbers should be equal to
-your vivoinnovaonexgobyted's P2P listen port (9910 by default).
+your viogd's P2P listen port (9910 by default).
 
 	-externalip=X   You can tell vivoinnovaonexgobyte about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -78,25 +78,25 @@ your vivoinnovaonexgobyted's P2P listen port (9910 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 
-	./vivoinnovaonexgobyted -proxy=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -listen
+	./viogd -proxy=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -listen
 
 (obviously, replace the Onion address with your own). It should be noted that you still
 listen on all devices and another node could establish a clearnet connection, when knowing
 your address. To mitigate this, additionally bind the address of your Tor proxy:
 
-	./vivoinnovaonexgobyted ... -bind=127.0.0.1
+	./viogd ... -bind=127.0.0.1
 
 If you don't care too much about hiding your node, and want to be reachable on IPv4
 as well, use `discover` instead:
 
-	./vivoinnovaonexgobyted ... -discover
+	./viogd ... -discover
 
 and open port 9910 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
-	./vivoinnovaonexgobyted -onion=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -discover
+	./viogd -onion=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -discover
 
 
 3. List of known vivoinnovaonexgobyte Tor relays
@@ -120,14 +120,14 @@ for normal IPv4/IPv6 communication, use:
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
 API, to create and destroy 'ephemeral' hidden services programmatically.
-Vivoinnovaonexgobyte Core has been updated to make use of this.
+The VIOG Wallet has been updated to make use of this.
 
 This means that if Tor is running (and proper authorization is available),
-Vivoinnovaonexgobyte Core automatically creates a hidden service to listen on, without
+The VIOG Wallet automatically creates a hidden service to listen on, without
 manual configuration. This will positively affect the number of available
 .onion nodes.
 
-This new feature is enabled by default if Vivoinnovaonexgobyte Core is listening, and
+This new feature is enabled by default if The VIOG Wallet is listening, and
 a connection to Tor can be made. It can be configured with the `-listenonion`,
 `-torcontrol` and `-torpassword` settings. To show verbose debugging
 information, pass `-debug=tor`.

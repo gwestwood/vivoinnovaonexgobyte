@@ -67,7 +67,7 @@
         <bool>false</bool>
        </property>
        <property name="pixmap">
-        <pixmap resource="../vivoinnovaonexgobyte.qrc">:/images/drkblue/about</pixmap>
+        <pixmap resource="../viog.qrc">:/images/drkblue/about</pixmap>
        </property>
        <property name="scaledContents">
         <bool>false</bool>
@@ -163,7 +163,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../vivoinnovaonexgobyte.qrc"/>
+  <include location="../viog.qrc"/>
  </resources>
  <connections>
   <connection>

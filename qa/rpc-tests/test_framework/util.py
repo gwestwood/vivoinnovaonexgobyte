@@ -1,5 +1,5 @@
 # Copyright (c) 2014-2015 The Bitcoin Core developers
-# Copyright (c) 2014-2015 The Vivoinnovaonexgobyte Core developers
+# Copyright (c) 2014-2018 The VIOG Community developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #
@@ -115,7 +115,7 @@ def initialize_chain(test_dir):
     """
     Create (or copy from cache) a 200-block-long chain and
     4 wallets.
-    vivoinnovaonexgobyted and vivoinnovaonexgobyte-cli must be in search path.
+    viogd and viog-cli must be in search path.
     """
 
     if (not os.path.isdir(os.path.join("cache","node0"))
@@ -129,16 +129,16 @@ def initialize_chain(test_dir):
                 shutil.rmtree(os.path.join("cache","node"+str(i)))
 
         devnull = open(os.devnull, "w")
-        # Create cache directories, run vivoinnovaonexgobyteds:
+        # Create cache directories, run viogds:
         for i in range(4):
             datadir=initialize_datadir("cache", i)
-            args = [ os.getenv("VIVOINNOVAONEXGOBYTED", "vivoinnovaonexgobyted"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
+            args = [ os.getenv("viogd", "viogd"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(p2p_port(0)))
             bitcoind_processes[i] = subprocess.Popen(args)
             if os.getenv("PYTHON_DEBUG", ""):
-                print "initialize_chain: vivoinnovaonexgobyted started, calling vivoinnovaonexgobyte-cli -rpcwait getblockcount"
-            subprocess.check_call([ os.getenv("VIVOINNOVAONEXGOBYTECLI", "vivoinnovaonexgobyte-cli"), "-datadir="+datadir,
+                print "initialize_chain: viogd started, calling viog-cli -rpcwait getblockcount"
+            subprocess.check_call([ os.getenv("VIVOINNOVAONEXGOBYTECLI", "viog-cli"), "-datadir="+datadir,
                                     "-rpcwait", "getblockcount"], stdout=devnull)
             if os.getenv("PYTHON_DEBUG", ""):
                 print "initialize_chain: dassh-cli -rpcwait getblockcount completed"
@@ -214,23 +214,23 @@ def _rpchost_to_args(rpchost):
 
 def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=None):
     """
-    Start a vivoinnovaonexgobyted and return RPC connection to it
+    Start a viogd and return RPC connection to it
     """
     datadir = os.path.join(dirname, "node"+str(i))
     if binary is None:
-        binary = os.getenv("VIVOINNOVAONEXGOBYTED", "vivoinnovaonexgobyted")
+        binary = os.getenv("viogd", "viogd")
     # RPC tests still depend on free transactions
     args = [ binary, "-datadir="+datadir, "-server", "-keypool=1", "-discover=0", "-rest", "-blockprioritysize=50000" ]
     if extra_args is not None: args.extend(extra_args)
     bitcoind_processes[i] = subprocess.Popen(args)
     devnull = open(os.devnull, "w")
     if os.getenv("PYTHON_DEBUG", ""):
-        print "start_node: vivoinnovaonexgobyted started, calling vivoinnovaonexgobyte-cli -rpcwait getblockcount"
-    subprocess.check_call([ os.getenv("VIVOINNOVAONEXGOBYTECLI", "vivoinnovaonexgobyte-cli"), "-datadir="+datadir] +
+        print "start_node: viogd started, calling viog-cli -rpcwait getblockcount"
+    subprocess.check_call([ os.getenv("VIVOINNOVAONEXGOBYTECLI", "viog-cli"), "-datadir="+datadir] +
                           _rpchost_to_args(rpchost)  +
                           ["-rpcwait", "getblockcount"], stdout=devnull)
     if os.getenv("PYTHON_DEBUG", ""):
-        print "start_node: calling vivoinnovaonexgobyte-cli -rpcwait getblockcount returned"
+        print "start_node: calling viog-cli -rpcwait getblockcount returned"
     devnull.close()
     url = "http://rt:rt@%s:%d" % (rpchost or '127.0.0.1', rpc_port(i))
 
@@ -243,7 +243,7 @@ def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=
 
 def start_nodes(num_nodes, dirname, extra_args=None, rpchost=None, binary=None):
     """
-    Start multiple vivoinnovaonexgobyteds, return RPC connections to them
+    Start multiple viogds, return RPC connections to them
     """
     if extra_args is None: extra_args = [ None for i in range(num_nodes) ]
     if binary is None: binary = [ None for i in range(num_nodes) ]

@@ -231,7 +231,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
+        <source>The VIOG Wallet</source>
         <translation>Vivoinnovaonexgobyte Ядро</translation>
     </message>
     <message>
@@ -283,12 +283,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About Vivoinnovaonexgobyte Core</source>
+        <source>&amp;About The VIOG Wallet</source>
         <translation>&amp;За Vivoinnovaonexgobyte ядрото</translation>
     </message>
     <message>
-        <source>Show information about Vivoinnovaonexgobyte Core</source>
-        <translation>Покаци информация за Vivoinnovaonexgobyte Core</translation>
+        <source>Show information about The VIOG Wallet</source>
+        <translation>Покаци информация за The VIOG Wallet</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,7 +303,7 @@
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Vivoinnovaonexgobyte</source>
+        <source>Modify configuration options for The VIOG Wallet</source>
         <translation>Промяна на опции за конфигуриране на Vivoinnovaonexgobyte</translation>
     </message>
     <message>
@@ -443,16 +443,16 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a vivoinnovaonexgobyte: URI or payment request</source>
-        <translation>Отвори Vivoinnovaonexgobyte: URI или заявка за плащане</translation>
+        <source>Open a viog: URI or payment request</source>
+        <translation>Отвори viog: URI или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core client</source>
-        <translation>Vivoinnovaonexgobyte Core клиент</translation>
+        <source>The VIOG Wallet client</source>
+        <translation>The VIOG Wallet клиент</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,7 +463,7 @@
         <translation>Синхронизиране на допълнителни данни: %p%</translation>
     </message>
     <message>
-        <source>Show the Vivoinnovaonexgobyte Core help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
+        <source>Show The VIOG Wallet help message to get a list with possible VIOG command-line options</source>
         <translation>Покажи съобщението за помощ на Vivoinnovaonexgobyte ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
@@ -989,7 +989,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
+        <source>The VIOG Wallet</source>
         <translation>Vivoinnovaonexgobyte ядро</translation>
     </message>
     <message>
@@ -1001,7 +1001,7 @@ Address: %4
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Vivoinnovaonexgobyte Core</source>
+        <source>About The VIOG Wallet</source>
         <translation>За Vivoinnovaonexgobyte ядрото</translation>
     </message>
     <message>
@@ -1048,15 +1048,15 @@ Address: %4
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Vivoinnovaonexgobyte Core.</source>
+        <source>Welcome to The VIOG Wallet.</source>
         <translation>Добре дошли в ядрото на Vivoinnovaonexgobyte.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Vivoinnovaonexgobyte Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where The VIOG Wallet will store its data.</source>
         <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Vivoinnovaonexgobyte да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>The VIOG Wallet will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Vivoinnovaonexgobyte ще свали и съхрани копие на Vivoinnovaonexgobyte регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
@@ -1068,7 +1068,7 @@ Address: %4
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
+        <source>The VIOG Wallet</source>
         <translation>Vivoinnovaonexgobyte ядро</translation>
     </message>
     <message>
@@ -2586,7 +2586,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core is shutting down...</source>
+        <source>The VIOG Wallet is shutting down...</source>
         <translation>Vivoinnovaonexgobyte ядрото се изключва...</translation>
     </message>
     <message>
@@ -2736,7 +2736,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vivoinnovaonexgobyte Core</source>
+        <source>The VIOG Wallet</source>
         <translation>Vivoinnovaonexgobyte Ядро</translation>
     </message>
     <message>
@@ -2748,7 +2748,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The Vivoinnovaonexgobyte Core developers</source>
+        <source>The The VIOG Wallet developers</source>
         <translation>Водещи Vivoinnovaonexgobyte разработчици</translation>
     </message>
     <message>
@@ -3326,7 +3326,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Vivoinnovaonexgobyte Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. The VIOG Wallet is probably already running.</source>
         <translation>Не може да се заключи дата директорията %s. Vivoinnovaonexgobyte ядрото вече работи.</translation>
     </message>
     <message>
@@ -3382,7 +3382,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Vivoinnovaonexgobyte Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. The VIOG Wallet is probably already running.</source>
         <translation>Не може да се свърже с %s на този компютър. Vivoinnovaonexgobyte ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
@@ -3710,7 +3710,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
         <translation>Този продукт включва софтуер, разработен от проекта OpenSSL за използване в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографски софтуер, написан от Eric Young и UPnP софтуер, написан от Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use vivoinnovaonexgobyted, or the -server option to vivoinnovaonexgobyte-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viogd, or the -server option to viog-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=vivoinnovaonexgobyterpc
@@ -3721,7 +3721,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@foo.com
 </source>
-        <translation>За използване на vivoinnovaonexgobyted, или the -server опция към vivoinnovaonexgobyte-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=vivoinnovaonexgobyterpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@foo.com 
+        <translation>За използване на viogd, или the -server опция към viog-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=vivoinnovaonexgobyterpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@foo.com 
 </translation>
     </message>
     <message>
@@ -3737,8 +3737,8 @@ for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@f
         <translation>Внимание: -maxtxfee  е с много голяма зададена стойност! Това е транзакционната такса, която ще платите ако направите единична транзакция.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Vivoinnovaonexgobyte Core will not work properly.</source>
-        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Vivoinnovaonexgobyte Core няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong The VIOG Wallet will not work properly.</source>
+        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, The VIOG Wallet няма да работи правилно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3791,8 +3791,8 @@ for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@f
         <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Vivoinnovaonexgobyte Core Developers</source>
-        <translation>Запазени права (C) 2014-%i Vivoinnovaonexgobyte Core разработчиците</translation>
+        <source>Copyright (C) 2014-%i The The VIOG Wallet Developers</source>
+        <translation>Запазени права (C) 2014-%i The VIOG Wallet разработчиците</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3823,8 +3823,8 @@ for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@f
         <translation>Грешка при свързване с Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Vivoinnovaonexgobyte Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Vivoinnovaonexgobyte Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of The VIOG Wallet</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на The VIOG Wallet</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3895,7 +3895,7 @@ for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@f
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Vivoinnovaonexgobyte Core is shutting down.</source>
+        <source>Initialization sanity check failed. The VIOG Wallet is shutting down.</source>
         <translation>Инициализационната проверка не успешна. Vivoinnovaonexgobyte ядрото се изключва.</translation>
     </message>
     <message>
@@ -4147,7 +4147,7 @@ for example: alertnotify=echo %%s | mail -s "Vivoinnovaonexgobyte Alert" admin@f
         <translation>Използвай UPnP за определяне на порта за слушане (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Vivoinnovaonexgobyte Core to complete</source>
+        <source>Wallet needed to be rewritten: restart The VIOG Wallet to complete</source>
         <translation>Портфейлът трябва да бъде презаписан: рестартирайте Vivoinnovaonexgobyte за да завършите</translation>
     </message>
     <message>

@@ -296,8 +296,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+108"/>
         <location line="+752"/>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -361,13 +361,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Vivoinnovaonexgobyte Core</source>
-        <translation>&amp;About Vivoinnovaonexgobyte Core</translation>
+        <source>&amp;About The VIOG Wallet</source>
+        <translation>&amp;About The VIOG Wallet</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Vivoinnovaonexgobyte Core</source>
-        <translation>Show information about Vivoinnovaonexgobyte Core</translation>
+        <source>Show information about The VIOG Wallet</source>
+        <translation>Show information about The VIOG Wallet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -572,8 +572,8 @@
     </message>
     <message>
         <location line="+196"/>
-        <source>Vivoinnovaonexgobyte Core client</source>
-        <translation>Vivoinnovaonexgobyte Core client</translation>
+        <source>The VIOG Wallet client</source>
+        <translation>The VIOG Wallet client</translation>
     </message>
     <message numerus="yes">
         <location line="+182"/>
@@ -587,8 +587,8 @@
     </message>
     <message>
         <location line="-407"/>
-        <source>Show the Vivoinnovaonexgobyte Core help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
-        <translation>Show the Vivoinnovaonexgobyte Core help message to get a list with possible Vivoinnovaonexgobyte command-line options</translation>
+        <source>Show the The VIOG Wallet help message to get a list with possible Vivoinnovaonexgobyte command-line options</source>
+        <translation>Show the The VIOG Wallet help message to get a list with possible Vivoinnovaonexgobyte command-line options</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -1246,8 +1246,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+32"/>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1262,8 +1262,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Vivoinnovaonexgobyte Core</source>
-        <translation>About Vivoinnovaonexgobyte Core</translation>
+        <source>About The VIOG Wallet</source>
+        <translation>About The VIOG Wallet</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1320,18 +1320,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Vivoinnovaonexgobyte Core.</source>
-        <translation>Welcome to Vivoinnovaonexgobyte Core.</translation>
+        <source>Welcome to The VIOG Wallet.</source>
+        <translation>Welcome to The VIOG Wallet.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Vivoinnovaonexgobyte Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Vivoinnovaonexgobyte Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where The VIOG Wallet will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where The VIOG Wallet will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Vivoinnovaonexgobyte Core will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Vivoinnovaonexgobyte Core will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>The VIOG Wallet will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>The VIOG Wallet will download and store a copy of the Vivoinnovaonexgobyte block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1345,8 +1345,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3303,8 +3303,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>Vivoinnovaonexgobyte Core is shutting down...</source>
-        <translation>Vivoinnovaonexgobyte Core is shutting down...</translation>
+        <source>The VIOG Wallet is shutting down...</source>
+        <translation>The VIOG Wallet is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3498,8 +3498,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Vivoinnovaonexgobyte Core</source>
-        <translation>Vivoinnovaonexgobyte Core</translation>
+        <source>The VIOG Wallet</source>
+        <translation>The VIOG Wallet</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3513,8 +3513,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Vivoinnovaonexgobyte Core developers</source>
-        <translation>The Vivoinnovaonexgobyte Core developers</translation>
+        <source>The The VIOG Wallet developers</source>
+        <translation>The The VIOG Wallet developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+19"/>
@@ -4250,8 +4250,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Vivoinnovaonexgobyte Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Vivoinnovaonexgobyte Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. The VIOG Wallet is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. The VIOG Wallet is probably already running.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4320,8 +4320,8 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Vivoinnovaonexgobyte Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Vivoinnovaonexgobyte Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. The VIOG Wallet is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. The VIOG Wallet is probably already running.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4730,7 +4730,7 @@ https://www.transifex.com/projects/p/vivoinnovaonexgobyte/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use vivoinnovaonexgobyted, or the -server option to vivoinnovaonexgobyte-qt, you must set an rpcpassword in the configuration file:
+        <source>To use viogd, or the -server option to viog-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=vivoinnovaonexgobyterpc
@@ -4741,7 +4741,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Vivoinnovaonexgobyte Alert&quot; admin@foo.com
 </source>
-        <translation>To use vivoinnovaonexgobyted, or the -server option to vivoinnovaonexgobyte-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use viogd, or the -server option to viog-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=vivoinnovaonexgobyterpc
@@ -4770,8 +4770,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Vivoinnovaonexgobyte Alert&quo
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Vivoinnovaonexgobyte Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Vivoinnovaonexgobyte Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong The VIOG Wallet will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong The VIOG Wallet will not work properly.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -4837,8 +4837,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Vivoinnovaonexgobyte Alert&quo
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Vivoinnovaonexgobyte Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Vivoinnovaonexgobyte Core Developers</translation>
+        <source>Copyright (C) 2014-%i The The VIOG Wallet Developers</source>
+        <translation>Copyright (C) 2014-%i The The VIOG Wallet Developers</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4877,8 +4877,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Vivoinnovaonexgobyte Alert&quo
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Vivoinnovaonexgobyte Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Vivoinnovaonexgobyte Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of The VIOG Wallet</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of The VIOG Wallet</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4967,8 +4967,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Vivoinnovaonexgobyte Alert&quo
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Vivoinnovaonexgobyte Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Vivoinnovaonexgobyte Core is shutting down.</translation>
+        <source>Initialization sanity check failed. The VIOG Wallet is shutting down.</source>
+        <translation>Initialization sanity check failed. The VIOG Wallet is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5282,8 +5282,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Vivoinnovaonexgobyte Alert&quo
     </message>
     <message>
         <location line="+9"/>
-        <source>Wallet needed to be rewritten: restart Vivoinnovaonexgobyte Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Vivoinnovaonexgobyte Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart The VIOG Wallet to complete</source>
+        <translation>Wallet needed to be rewritten: restart The VIOG Wallet to complete</translation>
     </message>
     <message>
         <location line="+5"/>

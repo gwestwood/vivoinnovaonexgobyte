@@ -1,7 +1,7 @@
-Vivoinnovaonexgobyte Core 0.12.1
-=====================
+The VIOG Wallet 0.13.0
+======================
 
-This is the official reference wallet for Vivoinnovaonexgobyte digital currency and comprises the backbone of the Vivoinnovaonexgobyte peer-to-peer network. You can [download Vivoinnovaonexgobyte Core](https://www.vivoinnovaonexgobyte.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Vivoinnovaonexgobyte digital currency and comprises the backbone of the Vivoinnovaonexgobyte peer-to-peer network. You can [download The VIOG Wallet](https://www.viog.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -9,31 +9,29 @@ The following are some helpful notes on how to run Vivoinnovaonexgobyte on your 
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Vivoinnovaonexgobyte-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Wiog-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
-- bin/32/vivoinnovaonexgobyte-qt (GUI, 32-bit) or bin/32/vivoinnovaonexgobyted (headless, 32-bit)
-- bin/64/vivoinnovaonexgobyte-qt (GUI, 64-bit) or bin/64/vivoinnovaonexgobyted (headless, 64-bit)
+- bin/32/viog-qt (GUI, 32-bit) or bin/32/viogd (headless, 32-bit)
+- bin/64/viog-qt (GUI, 64-bit) or bin/64/viogd (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run vivoinnovaonexgobyte-qt.exe.
+Unpack the files into a directory, and then run viog-qt.exe.
 
 ### OS X
 
-Drag Vivoinnovaonexgobyte-Core to your applications folder, and then run Vivoinnovaonexgobyte-Core.
+Drag The VIOG Wallet to your applications folder, and then run The VIOG Wallet.
 
 ### Need Help?
 
-* See the [Vivoinnovaonexgobyte documentation](https://vivoinnovaonexgobytepay.atlassian.net/wiki/display/DOC)
-for help and more information.
-* Ask for help on [#vivoinnovaonexgobytepay](http://webchat.freenode.net?channels=vivoinnovaonexgobytepay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=vivoinnovaonexgobytepay).
-* Ask for help on the [VivoinnovaonexgobyteTalk](https://vivoinnovaonexgobytetalk.org/) forums.
+* Ask for help on the [BitcoinTalk](https://bitcoin.org/) forums.
+* Join our Discord on https://discord.gg/bqHkrPt
 
 Building
 ---------------------
@@ -47,7 +45,7 @@ The following are developer notes on how to build Vivoinnovaonexgobyte on your n
 
 Development
 ---------------------
-The Vivoinnovaonexgobyte repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The VIOG repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -61,16 +59,6 @@ The Vivoinnovaonexgobyte repo's [root README](/README.md) contains relevant info
 - [Shared Libraries](shared-libraries.md)
 - [BIPS](bips.md)
 - [Dnsseed Policy](dnsseed-policy.md)
-
-### Resources
-* Discuss on the [VivoinnovaonexgobyteTalk](https://vivoinnovaonexgobytetalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#vivoinnovaonexgobytepay](http://webchat.freenode.net/?channels=vivoinnovaonexgobytepay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=vivoinnovaonexgobytepay).
-
-### Miscellaneous
-- [Assets Attribution](assets-attribution.md)
-- [Files](files.md)
-- [Tor Support](tor.md)
-- [Init Scripts (systemd/upstart/openrc)](init.md)
 
 License
 ---------------------

@@ -244,7 +244,7 @@ def FromHex(obj, hex_string):
 def ToHex(obj):
     return binascii.hexlify(obj.serialize()).decode('utf-8')
 
-# Objects that map to vivoinnovaonexgobyted objects, which can be serialized/deserialized
+# Objects that map to viogd objects, which can be serialized/deserialized
 
 class CAddress(object):
     def __init__(self):
@@ -969,7 +969,7 @@ class msg_headers(object):
         self.headers = []
 
     def deserialize(self, f):
-        # comment in vivoinnovaonexgobyted indicates these should be deserialized as blocks
+        # comment in viogd indicates these should be deserialized as blocks
         blocks = deser_vector(f, CBlock)
         for x in blocks:
             self.headers.append(CBlockHeader(x))

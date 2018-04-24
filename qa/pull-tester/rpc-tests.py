@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "VIVOINNOVAONEXGOBYTED" not in os.environ:
-    os.environ["VIVOINNOVAONEXGOBYTED"] = buildDir + '/src/vivoinnovaonexgobyted' + EXEEXT
-if "VIVOINNOVAONEXGOBYTECLI" not in os.environ:
-    os.environ["VIVOINNOVAONEXGOBYTECLI"] = buildDir + '/src/vivoinnovaonexgobyte-cli' + EXEEXT
+if "VIOGD" not in os.environ:
+    os.environ["VIOGD"] = buildDir + '/src/viogd' + EXEEXT
+if "VIOGCLI" not in os.environ:
+    os.environ["VIOGCLI"] = buildDir + '/src/viog-cli' + EXEEXT
 
 #Disable Windows tests by default
 if EXEEXT == ".exe" and "-win" not in opts:

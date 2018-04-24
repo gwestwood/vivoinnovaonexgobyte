@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: vivoinnovaonexgobyted.service
-Upstart: vivoinnovaonexgobyted.conf
-OpenRC:  vivoinnovaonexgobyted.openrc
-         vivoinnovaonexgobyted.openrcconf
-CentOS:  vivoinnovaonexgobyted.init
-OS X:    org.vivoinnovaonexgobyte.vivoinnovaonexgobyted.plist
+SystemD: viogd.service
+Upstart: viogd.conf
+OpenRC:  viogd.openrc
+         viogd.openrcconf
+CentOS:  viogd.init
+OS X:    org.viog.viogd.plist
 
 have been made available to assist packagers in creating node packages here.
 
