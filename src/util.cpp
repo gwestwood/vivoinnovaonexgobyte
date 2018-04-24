@@ -130,6 +130,7 @@ std::vector<CAmount> darkSendDenominations;
 string strBudgetMode = "";
 
 const char * const BITCOIN_CONF_FILENAME = "viog.conf";
+const char * const BITCOIN_CONF_FILENAME_OLD = "vivoinnovaonexgobyte.conf";
 const char * const BITCOIN_PID_FILENAME = "viogd.pid";
 
 map<string, string> mapArgs;
