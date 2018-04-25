@@ -122,7 +122,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xdc9a719dc1bcda39107ea55424f00cab512170a1cb69efa08531f483f2399f21"));
 
 
-        vSeeds.push_back(CDNSSeedData("104.196.177.123", "104.196.177.123"));
+        vSeeds.push_back(CDNSSeedData("blockexplorer.viog.org", "94.242.240.125"));
+        vSeeds.push_back(CDNSSeedData("pool.masternodes.lu", "94.242.240.124"));
 
         // Dash addresses start with 'X'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
