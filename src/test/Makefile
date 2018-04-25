@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. vivoinnovaonexgobyte_test
+	$(MAKE) -C .. viog_test
 clean:
-	$(MAKE) -C .. vivoinnovaonexgobyte_test_clean
+	$(MAKE) -C .. viog_test_clean
 check:
-	$(MAKE) -C .. vivoinnovaonexgobyte_test_check
+	$(MAKE) -C .. viog_test_check

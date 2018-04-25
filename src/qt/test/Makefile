@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C ../../ test_vivoinnovaonexgobyte_qt
+	$(MAKE) -C ../../ test_viog_qt
 clean:
-	$(MAKE) -C ../../ test_vivoinnovaonexgobyte_qt_clean
+	$(MAKE) -C ../../ test_viog_qt_clean
 check:
-	$(MAKE) -C ../../ test_vivoinnovaonexgobyte_qt_check
+	$(MAKE) -C ../../ test_viog_qt_check
