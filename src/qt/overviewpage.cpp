@@ -327,7 +327,7 @@ void OverviewPage::updatePrivateSendProgress()
     if(!pwalletMain) return;
 
     QString strAmountAndRounds;
-    QString strAnonymizeViogAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeViogbyteAmount * COIN, false, BitcoinUnits::separatorAlways);
+    QString strAnonymizeViogAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeViogAmount * COIN, false, BitcoinUnits::separatorAlways);
 
     if(currentBalance == 0)
     {
