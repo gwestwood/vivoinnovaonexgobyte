@@ -58,7 +58,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     pixmap = QPixmap(splashScreenPath);
 
     QPainter pixPaint(&pixmap);
-    pixPaint.setPen(QColor(100,100,100));
+    pixPaint.setPen(QColor(123,179,255));
 
     // check font size and drawing with
     pixPaint.setFont(QFont(font, 28*fontFactor));
@@ -103,6 +103,9 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     setFixedSize(r.size());
     move(QApplication::desktop()->screenGeometry().center() - r.center());
 
+    // Make the progress text a little bigger:
+    pixPaint.setFont(QFont(font, 15*fontFactor));
+
     subscribeToCoreSignals();
 }
 
@@ -123,7 +126,7 @@ static void InitMessage(SplashScreen *splash, const std::string &message)
         Qt::QueuedConnection,
         Q_ARG(QString, QString::fromStdString(message)),
         Q_ARG(int, Qt::AlignBottom|Qt::AlignHCenter),
-        Q_ARG(QColor, QColor(55,55,55)));
+        Q_ARG(QColor, QColor(123,179,255)));
 }
 
 static void ShowProgress(SplashScreen *splash, const std::string &title, int nProgress)

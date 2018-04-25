@@ -44,6 +44,3 @@ enum GovernanceObjectType {
 
 extern GovernanceObjectType GovernanceStringToType(std::string strType);
 extern std::string GovernanceTypeToString(GovernanceObjectType type);
-
-
-#endif

@@ -23,14 +23,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 
+
+INCLUDEPATH += C:\deps\boost_1_55_0 \
+    src\qt \
+    src\leveldb \
+    src\leveldb\include \
+    src
+
 SOURCES += \
     src/bench/bench.cpp \
     src/bench/bench_viog.cpp \
     src/bench/Examples.cpp \
-    src/compat/glibc_compat.cpp \
-    src/compat/glibc_sanity.cpp \
-    src/compat/glibcxx_sanity.cpp \
-    src/compat/strnlen.cpp \
     src/consensus/merkle.cpp \
     src/crypto/hmac_sha256.cpp \
     src/crypto/hmac_sha512.cpp \
@@ -38,9 +41,6 @@ SOURCES += \
     src/crypto/sha1.cpp \
     src/crypto/sha256.cpp \
     src/crypto/sha512.cpp \
-    src/drafted/governance-keys.cpp \
-    src/drafted/governance-types.cpp \
-    src/drafted/governance.new.cpp \
     src/leveldb/db/autocompact_test.cc \
     src/leveldb/db/builder.cc \
     src/leveldb/db/c.cc \
@@ -353,9 +353,6 @@ SOURCES += \
 
 HEADERS += \
     src/bench/bench.h \
-    src/compat/byteswap.h \
-    src/compat/endian.h \
-    src/compat/sanity.h \
     src/consensus/consensus.h \
     src/consensus/merkle.h \
     src/consensus/params.h \
@@ -381,10 +378,6 @@ HEADERS += \
     src/crypto/sph_simd.h \
     src/crypto/sph_skein.h \
     src/crypto/sph_types.h \
-    src/drafted/governance-categories.h \
-    src/drafted/governance-classes.h \
-    src/drafted/governance-keys.h \
-    src/drafted/governance-types.h \
     src/leveldb/db/builder.h \
     src/leveldb/db/db_impl.h \
     src/leveldb/db/db_iter.h \
