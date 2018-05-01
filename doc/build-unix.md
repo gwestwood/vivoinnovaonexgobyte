@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build Vivoinnovaonexgobyte Core in Unix.
+Some notes on how to build The VIOG Wallet in Unix.
 
 (for OpenBSD specific instructions, see [build-openbsd.md](build-openbsd.md))
 
@@ -24,7 +24,7 @@ make
 make install # optional
 ```
 
-This will build vivoinnovaonexgobyte-qt as well if the dependencies are met.
+This will build viog-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -54,7 +54,7 @@ System requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
-memory available when compiling Vivoinnovaonexgobyte Core. With 512MB of memory or less
+memory available when compiling The VIOG Wallet. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -85,7 +85,7 @@ BerkeleyDB 5.1 or later, which break binary wallet compatibility with the distri
 are based on BerkeleyDB 4.8. If you do not care about wallet compatibility,
 pass `--with-incompatible-bdb` to configure.
 
-See the section "Disable-wallet mode" to build Vivoinnovaonexgobyte Core without wallet.
+See the section "Disable-wallet mode" to build The VIOG Wallet without wallet.
 
 Optional:
 
@@ -98,7 +98,7 @@ ZMQ dependencies:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Vivoinnovaonexgobyte-Qt, make sure that the required packages for Qt development
+If you want to build viog-qt, make sure that the required packages for Qt development
 are installed. Either Qt 5 or Qt 4 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 5 will be used. Pass `--with-gui=qt4` to configure to choose Qt4.
 To build without GUI pass `--without-gui`.
@@ -115,12 +115,12 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a vivoinnovaonexgobyte-qt executable will be
+Once these are installed, they will be found by configure and a viog-qt executable will be
 built by default.
 
 Notes
 -----
-The release is built with GCC and then "strip vivoinnovaonexgobyted" to strip the debug
+The release is built with GCC and then "strip viogd" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -159,7 +159,7 @@ cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 
-# Configure Vivoinnovaonexgobyte Core to use our own-built instance of BDB
+# Configure The VIOG Wallet to use our own-built instance of BDB
 cd $VIVOINNOVAONEXGOBYTE_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
@@ -202,7 +202,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./vivoinnovaonexgobyted
+    	scanelf -e ./viogd
 
     The output should contain:
 
@@ -217,7 +217,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    `scanelf -e ./vivoinnovaonexgobyted`
+    `scanelf -e ./viogd`
 
     the output should contain:
 	STK/REL/PTL

@@ -1,8 +1,6 @@
-Source: vivoinnovaonexgobyte
+Source: viog
 Section: utils
 Priority: optional
-Maintainer: Holger Schinzel <holger@vivoinnovaonexgobyte.org>
-Uploaders: Holger Schinzel <holger@vivoinnovaonexgobyte.org>
 Build-Depends: debhelper,
  devscripts,
  automake,
@@ -24,45 +22,45 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.vivoinnovaonexgobyte.org/
-Vcs-Git: git://github.com/vivoinnovaonexgobytepay/vivoinnovaonexgobyte.git
-Vcs-Browser: https://github.com/vivoinnovaonexgobytepay/vivoinnovaonexgobyte
+Homepage: https://www.viog.org/
+Vcs-Git: git://github.com/Iwwerall/VIOG/VIOG.git
+Vcs-Browser: https://github.com/VIOG
 
-Package: vivoinnovaonexgobyted
+Package: viogd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Vivoinnovaonexgobyte is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Vivoinnovaonexgobyte uses peer-to-peer
+ VIOG is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. VIOG uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Vivoinnovaonexgobyte Core
+ and issuing money are carried out collectively by the network. The VIOG Wallet
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, vivoinnovaonexgobyted, and the CLI tool
- vivoinnovaonexgobyte-cli to interact with the daemon.
+ This package provides the daemon, viogd, and the CLI tool
+ viog-cli to interact with the daemon.
 
-Package: vivoinnovaonexgobyte-qt
+Package: viog-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Vivoinnovaonexgobyte is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Vivoinnovaonexgobyte uses peer-to-peer
+ VIOG is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. VIOG uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Vivoinnovaonexgobyte Core
+ and issuing money are carried out collectively by the network. The VIOG Wallet
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Vivoinnovaonexgobyte-Qt, a GUI for Vivoinnovaonexgobyte based on Qt.
+ This package provides Viog-Qt, a GUI for VIOG based on Qt.
 
-Package: vivoinnovaonexgobyte-tx
+Package: viog-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Vivoinnovaonexgobyte is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Vivoinnovaonexgobyte uses peer-to-peer
+ VIOG is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. VIOG uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Vivoinnovaonexgobyte Core
+ and issuing money are carried out collectively by the network. The VIOG Wallet
  is the name of the open source software which enables the use of this currency.
  .
- This package provides vivoinnovaonexgobyte-tx, a command-line transaction creation
- tool which can be used without a vivoinnovaonexgobyte daemon.  Some means of
+ This package provides viog-tx, a command-line transaction creation
+ tool which can be used without a VIOG daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

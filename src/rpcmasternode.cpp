@@ -109,7 +109,7 @@ UniValue masternode(const UniValue& params, bool fHelp)
                 "  genkey       - Generate new masternodeprivkey\n"
                 "  enforce      - Enforce masternode payments\n"
                 "  outputs      - Print masternode compatible outputs\n"
-                "  start        - Start local Hot masternode configured in vivoinnovaonexgobyte.conf\n"
+                "  start        - Start local Hot masternode configured in viog.conf\n"
                 "  start-alias  - Start single remote masternode by assigned alias configured in masternode.conf\n"
                 "  start-<mode> - Start remote masternodes configured in masternode.conf (<mode>: 'all', 'missing', 'disabled')\n"
                 "  status       - Print masternode status information\n"

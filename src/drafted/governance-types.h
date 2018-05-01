@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // VivoinnovaonexgobyteNetwork - is the root node
-    VivoinnovaonexgobyteNetwork = 1000,
-    VivoinnovaonexgobyteNetworkVariable = 1001,
+    // ViogNetwork - is the root node
+    ViogNetwork = 1000,
+    ViogNetworkVariable = 1001,
     Category = 1002,
 
     // Actors
@@ -44,6 +44,3 @@ enum GovernanceObjectType {
 
 extern GovernanceObjectType GovernanceStringToType(std::string strType);
 extern std::string GovernanceTypeToString(GovernanceObjectType type);
-
-
-#endif

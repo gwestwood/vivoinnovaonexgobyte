@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -243,11 +243,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Vivoinnovaonexgobyte server.");
+            "\nStop VIOG server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Vivoinnovaonexgobyte server stopping";
+    return "VIOG server stopping";
 }
 
 /**
@@ -335,17 +335,17 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* Vivoinnovaonexgobyte features */
-    { "vivoinnovaonexgobyte",               "masternode",             &masternode,             true  },
-    { "vivoinnovaonexgobyte",               "masternodelist",         &masternodelist,         true  },
-    { "vivoinnovaonexgobyte",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "vivoinnovaonexgobyte",               "mngovernance",           &mngovernance,           true  },
-    { "vivoinnovaonexgobyte",               "voteraw",                &voteraw,                true  },
-    { "vivoinnovaonexgobyte",               "mnsync",                 &mnsync,                 true  },
-    { "vivoinnovaonexgobyte",               "spork",                  &spork,                  true  },
-    { "vivoinnovaonexgobyte",               "getpoolinfo",            &getpoolinfo,            true  },
+    /* VIOG features */
+    { "viog",               "masternode",             &masternode,             true  },
+    { "viog",               "masternodelist",         &masternodelist,         true  },
+    { "viog",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "viog",               "mngovernance",           &mngovernance,           true  },
+    { "viog",               "voteraw",                &voteraw,                true  },
+    { "viog",               "mnsync",                 &mnsync,                 true  },
+    { "viog",               "spork",                  &spork,                  true  },
+    { "viog",               "getpoolinfo",            &getpoolinfo,            true  },
 #ifdef ENABLE_WALLET
-    { "vivoinnovaonexgobyte",               "privatesend",            &privatesend,            false },
+    { "viog",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -567,7 +567,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> vivoinnovaonexgobyte-cli " + methodname + " " + args + "\n";
+    return "> viog-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

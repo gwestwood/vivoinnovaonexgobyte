@@ -69,15 +69,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += vivoinnovaonexgobyted
+  bin_PROGRAMS += viogd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += vivoinnovaonexgobyte-cli vivoinnovaonexgobyte-tx
+  bin_PROGRAMS += viog-cli viog-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# vivoinnovaonexgobyte core #
+# viog core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -199,7 +199,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between vivoinnovaonexgobyted and vivoinnovaonexgobyte-qt
+# server: shared between viogd and viog-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -248,7 +248,7 @@ libbitcoin_zmq_a_SOURCES = \
 endif
 
 
-# wallet: shared between vivoinnovaonexgobyted and vivoinnovaonexgobyte-qt, but only linked
+# wallet: shared between viogd and viog-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -322,7 +322,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha512.cpp \
   crypto/sha512.h
 
-# common: shared between vivoinnovaonexgobyted, and vivoinnovaonexgobyte-qt and non-server tools
+# common: shared between viogd, and viog-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -379,7 +379,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between vivoinnovaonexgobyte-cli and vivoinnovaonexgobyte-qt
+# cli: shared between viog-cli and viog-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -390,16 +390,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-vivoinnovaonexgobyted_SOURCES = vivoinnovaonexgobyted.cpp
-vivoinnovaonexgobyted_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-vivoinnovaonexgobyted_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vivoinnovaonexgobyted_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+viogd_SOURCES = viogd.cpp
+viogd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+viogd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+viogd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vivoinnovaonexgobyted_SOURCES += vivoinnovaonexgobyted-res.rc
+viogd_SOURCES += viogd-res.rc
 endif
 
-vivoinnovaonexgobyted_LDADD = \
+viogd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -410,50 +410,50 @@ vivoinnovaonexgobyted_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-vivoinnovaonexgobyted_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+viogd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-vivoinnovaonexgobyted_LDADD += libbitcoin_wallet.a
+viogd_LDADD += libbitcoin_wallet.a
 endif
 
-vivoinnovaonexgobyted_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+viogd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
-# vivoinnovaonexgobyte-cli binary #
-vivoinnovaonexgobyte_cli_SOURCES = vivoinnovaonexgobyte-cli.cpp
-vivoinnovaonexgobyte_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-vivoinnovaonexgobyte_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vivoinnovaonexgobyte_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# viog-cli binary #
+viog_cli_SOURCES = viog-cli.cpp
+viog_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+viog_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+viog_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vivoinnovaonexgobyte_cli_SOURCES += vivoinnovaonexgobyte-cli-res.rc
+viog_cli_SOURCES += viog-cli-res.rc
 endif
 
-vivoinnovaonexgobyte_cli_LDADD = \
+viog_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL)
-vivoinnovaonexgobyte_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+viog_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# vivoinnovaonexgobyte-tx binary #
-vivoinnovaonexgobyte_tx_SOURCES = vivoinnovaonexgobyte-tx.cpp
-vivoinnovaonexgobyte_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-vivoinnovaonexgobyte_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vivoinnovaonexgobyte_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# viog-tx binary #
+viog_tx_SOURCES = viog-tx.cpp
+viog_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+viog_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+viog_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vivoinnovaonexgobyte_tx_SOURCES += vivoinnovaonexgobyte-tx-res.rc
+viog_tx_SOURCES += viog-tx-res.rc
 endif
 
-vivoinnovaonexgobyte_tx_LDADD = \
+viog_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-vivoinnovaonexgobyte_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+viog_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

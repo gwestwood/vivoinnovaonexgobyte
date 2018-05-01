@@ -1,7 +1,7 @@
 Translations
 ============
 
-The Vivoinnovaonexgobyte-Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Vivoinnovaonexgobyte Core makes use of the Transifex online translation management tool.
+The Vivoinnovaonexgobyte-Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, The VIOG Wallet makes use of the Transifex online translation management tool.
 
 
 ### Writing code with translations
@@ -16,7 +16,7 @@ cd src/
 make translate
 ```
 
-`contrib/vivoinnovaonexgobyte-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
+`contrib/viog-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
 
 **Example Qt translation**
 ```cpp

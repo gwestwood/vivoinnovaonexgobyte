@@ -17,7 +17,7 @@
 #include "util.h"
 #include "utilstrencodings.h"
 
-#include "test/test_vivoinnovaonexgobyte.h"
+#include "test/test_viog.h"
 
 #include <boost/test/unit_test.hpp>
 

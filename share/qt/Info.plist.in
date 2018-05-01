@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
 <plist version="0.9">
 <dict>
@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Vivoinnovaonexgobyte Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The VIOG Community developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Vivoinnovaonexgobyte-Qt</string>
+  <string>viog-qt</string>
   
   <key>CFBundleName</key>
-  <string>Vivoinnovaonexgobyte-Qt</string>
+  <string>viog-qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.vivoinnovaonexgobytepay.Vivoinnovaonexgobyte-Qt</string>
+  <string>io.viog.Wiog-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.vivoinnovaonexgobyte.VivoinnovaonexgobytePayment</string>
+      <string>org.viog.viogPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>vivoinnovaonexgobyte</string>
+        <string>viog</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.vivoinnovaonexgobyte.paymentrequest</string>
+      <string>org.viog.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Vivoinnovaonexgobyte payment request</string>
+      <string>VIOG payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-vivoinnovaonexgobyte-payment-request</string>
+        <string>application/x-viog-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>vivoinnovaonexgobytepaymentrequest</string>
+          <string>viogpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.vivoinnovaonexgobyte.paymentrequest</string>
+        <string>org.viog.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

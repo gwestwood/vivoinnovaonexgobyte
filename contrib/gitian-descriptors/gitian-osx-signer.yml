@@ -1,5 +1,5 @@
 ---
-name: "vivoinnovaonexgobyte-dmg-signer"
+name: "viog-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -8,10 +8,10 @@ packages:
 - "faketime"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/vivoinnovaonexgobytepay/vivoinnovaonexgobyte-detached-sigs.git"
+- "url": "https://github.com/Iwwerall/VIOG.git"
   "dir": "signature"
 files:
-- "vivoinnovaonexgobyte-osx-unsigned.tar.gz"
+- "viog-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -28,10 +28,10 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=vivoinnovaonexgobyte-osx-unsigned.tar.gz
-  SIGNED=vivoinnovaonexgobyte-osx-signed.dmg
+  UNSIGNED=viog-osx-unsigned.tar.gz
+  SIGNED=viog-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Vivoinnovaonexgobyte-Core" -no-pad -r -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "The VIOG Wallet" -no-pad -r -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

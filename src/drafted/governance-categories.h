@@ -4,22 +4,22 @@
 
 	* means the category has an associated class
 	
-	CVivoinnovaonexgobyteNetwork: VIVOINNOVAONEXGOBYTE NETWORK (ROOT)
+    CViogNetwork: VIOG NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CVivoinnovaonexgobyteProject> vecProjects;
+        vector<CViogProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CVivoinnovaonexgobyteProject:
+    CViogProject:
 	has:
 		name
 		employees
 
 */
 
-	// VIVOINNOVAONEXGOBYTE NETWORK (ROOT)
+    // VIOG NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=VIVOINNOVAONEXGOBYTEDRIVE)
+    // 			-> VALUEOVERRIDE (STORE=VIOGDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

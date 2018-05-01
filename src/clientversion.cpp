@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both vivoinnovaonexgobyted and vivoinnovaonexgobyte-qt, to make it harder for attackers to
+ * for both viogd and viog-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Vivoinnovaonexgobyte Core");
+const std::string CLIENT_NAME("The VIOG Wallet");
 
 /**
  * Client version number

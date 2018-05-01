@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with `make check`.
 
-To run the vivoinnovaonexgobyted tests manually, launch `src/test/test_vivoinnovaonexgobyte`.
+To run the viogd tests manually, launch `src/test/test_vivoinnovaonexgobyte`.
 
-To add more vivoinnovaonexgobyted tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more viogd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the vivoinnovaonexgobyte-qt tests manually, launch `src/qt/test/test_vivoinnovaonexgobyte-qt`
+To run the viog-qt tests manually, launch `src/qt/test/test_viog-qt`
 
-To add more vivoinnovaonexgobyte-qt tests, add them to the `src/qt/test/` directory and
+To add more viog-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the Vivoinnovaonexgobyte Core software.
+This document provides guidelines for internationalization of the The VIOG Wallet software.
 
 How to translate?
 ------------------

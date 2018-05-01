@@ -20,9 +20,9 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave vivoinnovaonexgobyteds and test.* datadir on exit or error
-  --noshutdown          Don't stop vivoinnovaonexgobyteds after the test execution
-  --srcdir=SRCDIR       Source directory containing vivoinnovaonexgobyted/vivoinnovaonexgobyte-cli
+  --nocleanup           Leave viogds and test.* datadir on exit or error
+  --noshutdown          Don't stop viogds after the test execution
+  --srcdir=SRCDIR       Source directory containing viogd/viog-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -47,7 +47,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall vivoinnovaonexgobyted
+killall viogd
 ```
 
 Writing tests

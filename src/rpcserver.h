@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Vivoinnovaonexgobyte RPC command dispatcher.
+ * VIOG RPC command dispatcher.
  */
 class CRPCTable
 {

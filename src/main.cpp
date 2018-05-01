@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2016 The Vivoinnovaonexgobyte Core developers
+// Copyright (c) 2014-2018 The VIOG Community developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -56,7 +56,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Vivoinnovaonexgobyte cannot be compiled without assertions."
+# error "VIOG cannot be compiled without assertions."
 #endif
 
 /**
@@ -2259,7 +2259,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("vivoinnovaonexgobyte-scriptch");
+    RenameThread("viog-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -4639,7 +4639,7 @@ bool static AlreadyHave(const CInv& inv) EXCLUSIVE_LOCKS_REQUIRED(cs_main)
         return mapBlockIndex.count(inv.hash);
 
     /* 
-        Vivoinnovaonexgobyte Related Inventory Messages
+        VIOG Related Inventory Messages
 
         --
 

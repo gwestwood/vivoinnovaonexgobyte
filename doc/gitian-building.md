@@ -304,7 +304,7 @@ Clone the git repositories for vivoinnovaonexgobyte and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/vivoinnovaonexgobytepay/vivoinnovaonexgobyte
+git clone https://github.com/Iwwerall/VIOG
 ```
 
 Setting up the Gitian image
@@ -368,7 +368,7 @@ Output from `gbuild` will look something like
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/vivoinnovaonexgobytepay/vivoinnovaonexgobyte
+    From https://github.com/Iwwerall/VIOG
     ... (new tags, new branch etc)
     --- Building for precise amd64 ---
     Stopping target if it is up
@@ -444,12 +444,12 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/vivoinnovaonexgobytepay/vivoinnovaonexgobyte-detached-sigs.git
+git clone https://github.com/Iwwerall/VIOG.git
 
 BTCPATH=/some/root/path/vivoinnovaonexgobyte.git
 SIGPATH=/some/root/path/vivoinnovaonexgobyte-detached-sigs.git
 
-./bin/gbuild --url vivoinnovaonexgobyte=${BTCPATH},signature=${SIGPATH} ../vivoinnovaonexgobyte/contrib/gitian-descriptors/gitian-win-signer.yml
+./bin/gbuild --url VIOG=${BTCPATH},signature=${SIGPATH} ../VIOG/contrib/gitian-descriptors/gitian-win-signer.yml
 ```
 
 Signing externally
@@ -472,10 +472,3 @@ in `gitian.sigs` to your signing machine and do
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
 Gitian build.
 
-Uploading signatures (not yet implemented)
----------------------
-
-In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[vivoinnovaonexgobyte/gitian.sigs](https://github.com/vivoinnovaonexgobytepay/gitian.sigs/) repository, or if that's not possible to create a pull
-request.
-There will be an official announcement when this repository is online.

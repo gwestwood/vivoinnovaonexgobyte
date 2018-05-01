@@ -95,7 +95,7 @@ Issue the following:
 Make note of the hash (which is your collateral_output) and index.
 
 ### Enter your Masternode details into your masternode.conf file
-[From the vivoinnovaonexgobyte github repo](https://github.com/vivoinnovaonexgobytepay/vivoinnovaonexgobyte/blob/master/doc/masternode_conf.md)
+[From the VIOG github repo](https://github.com/Iwwerall/VIOG/blob/master/doc/masternode_conf.md)
 
 `masternode.conf` format is a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index.
 
@@ -106,8 +106,8 @@ alias ipaddress:port masternode_private_key collateral_output collateral_output_
 Example:
 
 ```
-mn01 127.0.0.1:9999 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
-mn02 127.0.0.2:9999 93WaAb3htPJEV8E9aQcN23Jt97bPex7YvWfgMDTUdWJvzmrMqey aa9f1034d973377a5e733272c3d0eced1de22555ad45d6b24abadff8087948d4 0
+mn01 127.0.0.1:9910 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+mn02 127.0.0.2:9910 93WaAb3htPJEV8E9aQcN23Jt97bPex7YvWfgMDTUdWJvzmrMqey aa9f1034d973377a5e733272c3d0eced1de22555ad45d6b24abadff8087948d4 0
 ```
 
 ## What about the vivoinnovaonexgobyte.conf file?
@@ -133,7 +133,7 @@ If your remote server is not running, start your remote daemon as you normally w
 
 You can confirm that remote server is on the correct block by issuing
 
-```vivoinnovaonexgobyte-cli getinfo```
+```viog-cli getinfo```
 
 and comparing with the official explorer at http://explorer.vivoinnovaonexgobyte.org/chain/Vivoinnovaonexgobyte
 
@@ -162,7 +162,7 @@ Example ```masternode start-alias mn01```
 Issue command `masternode status`
 It should return you something like that:
 ```
-vivoinnovaonexgobyte-cli masternode status
+viog-cli masternode status
 {
     "vin" : "CTxIn(COutPoint(<collateral_output>, <collateral_output_index>), scriptSig=)",
     "service" : "<ipaddress>:<port>",

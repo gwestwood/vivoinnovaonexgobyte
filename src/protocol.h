@@ -219,7 +219,7 @@ extern const char *REJECT;
  */
 extern const char *SENDHEADERS;
 
-// Vivoinnovaonexgobyte message types
+// VIOG message types
 // TODO: add description
 extern const char *IX;
 extern const char *IXLOCKVOTE;

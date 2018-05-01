@@ -21,7 +21,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ### [Qos](/contrib/qos) ###
 
-A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Vivoinnovaonexgobyte network. This means one can have an always-on vivoinnovaonexgobyted instance running, and another local vivoinnovaonexgobyted/vivoinnovaonexgobyte-qt instance which connects to this node and receives blocks from it.
+A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the VIOG network. This means one can have an always-on viogd instance running, and another local viogd/viog-qt instance which connects to this node and receives blocks from it.
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -30,8 +30,8 @@ Build Tools and Keys
 ---------------------
 
 ### [Debian](/contrib/debian) ###
-Contains files used to package vivoinnovaonexgobyted/vivoinnovaonexgobyte-qt
-for Debian-based Linux systems. If you compile vivoinnovaonexgobyted/vivoinnovaonexgobyte-qt yourself, there are some useful files here.
+Contains files used to package viogd/viog-qt
+for Debian-based Linux systems. If you compile viogd/viog-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
 Gavin's notes on getting gitian builds up and running using KVM.
@@ -46,7 +46,7 @@ Test and Verify Tools
 ---------------------
 
 ### [TestGen](/contrib/testgen) ###
-Utilities to generate test vectors for the data-driven Vivoinnovaonexgobyte tests.
+Utilities to generate test vectors for the data-driven VIOG tests.
 
 ### [Test Patches](/contrib/test-patches) ###
 These patches are applied when the automated pull-tester

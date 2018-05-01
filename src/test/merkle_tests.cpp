@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "consensus/merkle.h"
-#include "test/test_vivoinnovaonexgobyte.h"
+#include "test/test_viog.h"
 #include "random.h"
 
 #include <boost/test/unit_test.hpp>
